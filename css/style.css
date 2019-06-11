@@ -183,6 +183,12 @@ strong{
 
 
 /*Work*/
+
+#version{
+    display: inline;
+    padding-left: 20px;
+}
+
 #showgames ,#showapps h1{
     font-size: 40px;
     
