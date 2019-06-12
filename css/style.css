@@ -358,10 +358,10 @@ footer{
     color: #fff;
     background-color: #000000;
 }
-/*
+
 
 /*Media Queries*/
-@media(max-width:768px) {
+/*@media(max-width:768px) {
 
     .icon{
         width: 5%;
@@ -450,8 +450,7 @@ header{
     padding-bottom: 20px;
 }
 
-}
-*/
+}*/
 /*Animations*/
 
 /*Bounce in Left*/
