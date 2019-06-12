@@ -449,6 +449,12 @@ width: 100%;
 header{
     padding-bottom: 20px;
 }
+    #showcase p,.project h2,#education h1,#mydetail p{
+    float: none;
+    width: 100%;
+margin-left: 0;
+    text-align: center;
+}
 
 }
 /*Animations*/
