@@ -11,6 +11,9 @@
     src: url("../fonts/Noto_Serif/NotoSerif-Bold.ttf");
   }
 
+strike{
+  color: #B22222;
+}
 
 body{
     font: 15px/1.5 Arial,Helvetica,sans-serif;
