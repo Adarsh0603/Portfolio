@@ -381,6 +381,8 @@ footer{
         float: none;
         width: 100%;
         text-align: center;
+        padding-left: 0px;
+        padding-right: 10px;
     }
     #showgames ,#showapps h1{
         font-size: 30px;
