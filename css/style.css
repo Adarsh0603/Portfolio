@@ -384,6 +384,12 @@ footer{
         padding-left: 0px;
         padding-right: 10px;
     }
+    header img{
+        margin: auto;
+        width: 65%;
+        display: block;
+    }
+    
     #showgames ,#showapps h1{
         font-size: 30px;
         text-align: center;
