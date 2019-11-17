@@ -431,6 +431,13 @@ text-align: center;
 width: 100%;
   
 }
+    #aboutme h1{
+    margin: 20px;
+    }
+    
+    #aboutme .mypic{
+        display: none;
+    }
 #education p{
     
     margin-left: 0px;
@@ -447,7 +454,11 @@ width: 100%;
      
   
 }
-#education li,ul{
+    #education
+    {
+        margin: 20px;
+    }
+#education ul,li{
 
     margin-left: 0px;
     text-align: center;
