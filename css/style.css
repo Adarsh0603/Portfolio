@@ -218,7 +218,7 @@ strong{
     background-color: rgb(21, 21, 21);
 }
 #showapps{
-    background: url("../img/apps.png") no-repeat;
+   /* background: url("../img/apps.png") no-repeat;*/
     background-position: center;
     background-size: cover;
     
