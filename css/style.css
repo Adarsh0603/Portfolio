@@ -215,7 +215,7 @@ strong{
    background-attachment: fixed;
     padding: 20px;
     color: white;
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(0, 0, 0);
 }
 #showapps{
    /* background: url("../img/apps.png") no-repeat;*/
@@ -227,7 +227,7 @@ strong{
     padding: 20px;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(0, 0, 0);/*21,21,21*/
 }
 
 #gamedetail  img{
