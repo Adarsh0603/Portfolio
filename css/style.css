@@ -164,7 +164,7 @@ strong{
   
 }
 #showcase:hover{
-     background: url("../img/backdrop.png") no-repeat 0;
+     background: url("../img/backdrop1.png") no-repeat 0;
      background-position: center;
      animation: fadeIn 2s;
      background-size: cover;
