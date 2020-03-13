@@ -481,9 +481,10 @@ margin-left: 0;
 }
     #showcase p,.project h2,#education h1,#mydetail p{
     float: none;
-    width: 100%;
-margin-left: 0;
-    text-align: center;
+    width: 60%;
+margin-left: 40px;
+        padding-bottom:40px;
+    text-align: left;
 }
 
 }
