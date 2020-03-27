@@ -405,7 +405,7 @@ footer{
     float: none;
     width: 60%;
     margin-left: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     text-align: left;
     }
     #gamedetail a{
