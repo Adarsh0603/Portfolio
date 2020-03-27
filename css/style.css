@@ -200,9 +200,13 @@ strong{
    
 }*/
 
-#showgames ,#showapps h1{
-    font-size: 40px;
+#showgames h1{   font-size: 60px;
+    margin-left:60px;
     
+    font-family: showcaseFont;}
+#showapps h1{
+    font-size: 60px;
+    margin-left:60px;
     
     font-family: showcaseFont;
 }
@@ -388,11 +392,17 @@ footer{
         width: 65%;
         display: block;
     }
-    
-    #showgames ,#showapps h1{
+    #showgames h1{
         font-size: 30px;
         text-align: center;
-        
+         margin-left:0px;      
+        font-family: showcaseFont;
+  
+    }
+  #showapps h1{
+        font-size: 30px;
+        text-align: center;
+        margin-left:0px;
         font-family: showcaseFont;
     }
     .project{
