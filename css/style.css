@@ -402,8 +402,11 @@ footer{
         text-align: center;
     }
     #gamedetail p{
-text-align: center;
-        width: auto;
+    float: none;
+    width: 60%;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    text-align: left;
     }
     #gamedetail a{
 
@@ -432,7 +435,8 @@ width: 100%;
   
 }
     #aboutme h1{
-    margin: 20px;
+    margin-left: 40px;
+        text-align:left;
     }
     
     #aboutme .mypic{
@@ -440,11 +444,11 @@ width: 100%;
     }
 #education p{
     
-    margin-left: 0px;
+    margin-left: 40px;
     color: white;
    
-text-align: center;
-width: 100%;
+text-align: left;
+width: 80%;
     font-family: Droid serif;
         line-height: 1.8;
         font-weight: 500;
@@ -475,13 +479,14 @@ header{
     #education li,ul{
 
    float: none;
+        text-align:left;
     width: 100%;
-margin-left: 0;
+margin-left: 40px;
         
 }
     #showcase p,.project h2,#education h1,#mydetail p{
     float: none;
-    width: 60%;
+    width: 70%;
 margin-left: 40px;
         padding-bottom:40px;
     text-align: left;
