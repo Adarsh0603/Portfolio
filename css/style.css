@@ -256,10 +256,7 @@ strong{
     color: #E6CF78;
 }
 
-#gamedetail a:hover{
-font-weight: bold;
-font-size: 20px;
-}
+
 
 #gamedetail .gamecontent{
     float:left;
@@ -274,7 +271,8 @@ font-size: 20px;
 {margin-bottom: 30px;
     margin-top: 30px;
     min-height: 100px;
-   
+   margin-left:100px;
+    margin-right:100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding:20px;
     background: rgba(20, 20, 20, 0.274);
@@ -359,6 +357,7 @@ footer{
     padding: 10px;
     margin-top: 0px;
     text-align: center;
+    display:inline-block;
     color: #fff;
     background-color: #000000;
 }
@@ -398,7 +397,8 @@ footer{
     }
     .project{
         background: none;
-     
+     margin-left:0px;
+        margin-right:0px;
         text-align: center;
     }
     #gamedetail p{
