@@ -288,7 +288,7 @@ strong{
 #aboutme h1{
     margin-left: 100px;
 font-family: noto;
-font-size: 56px;
+font-size: 45px;
 animation: bounceInUp 0.5s;
 color: #fff;
 word-spacing: 10px;
@@ -449,6 +449,7 @@ width: 100%;
     #aboutme h1{
     margin-left: 40px;
         text-align:left;
+        width:60%;
     }
     
     #aboutme .mypic{
@@ -502,6 +503,13 @@ header{
     width: 100%;
 margin-left: 40px;
         
+}
+#showcase{
+  background: url("../img/androidback.jpg") no-repeat 0;
+    background-position:bottom;
+    /* animation: fadeIn 2s; */
+    background-size:contain;
+/*      background-attachment: fixed;  */
 }
     #showcase p,.project h2,#education h1,#mydetail p{
     float: none;
