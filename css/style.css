@@ -51,7 +51,7 @@ background: #07080A;
 color:#ffffff; 
 padding-top: 20px;
 min-height: 70px;
-border-bottom: #e8491d 3px solid;
+border-bottom:rgba(43, 134, 238, 1) 3px solid;
 }
 
 header a{
@@ -366,6 +366,7 @@ footer{
     display:inline-block;
     color: #fff;
     background-color: #000000;
+    border-top: rgba(43, 134, 238, 1) 3px solid;
 }
 
 
@@ -504,13 +505,16 @@ header{
 margin-left: 40px;
         
 }
+
 #showcase{
   background: url("../img/androidback.jpg") no-repeat 0;
     background-position:bottom;
     /* animation: fadeIn 2s; */
-    background-size:contain;
+ background-size: contain;
 /*      background-attachment: fixed;  */
 }
+
+
     #showcase p,.project h2,#education h1,#mydetail p{
     float: none;
     width: 70%;
