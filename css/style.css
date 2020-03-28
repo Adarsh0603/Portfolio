@@ -224,7 +224,7 @@ strong{
 #showapps{
    /* background: url("../img/apps.png") no-repeat;*/
    
-   background: url("../img/androidback.jpg") no-repeat 0;
+   /* background: url("../img/androidback.jpg") no-repeat 0; */
     background-position: center;
     background-size: cover;
     
@@ -520,6 +520,7 @@ margin-left: 40px;
     width: 70%;
 margin-left: 40px;
         padding-bottom:40px;
+        margin-bottom: 0px;
     text-align: left;
 }
 
