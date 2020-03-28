@@ -135,7 +135,7 @@ header a:hover{
     text-align: center;
     color: #fff; 
     opacity: 2;
-    
+    background: url("../img/androidback.jpg") no-repeat 0;
  background-position: center;
 background-size: cover;
 background-attachment: fixed; 
@@ -163,14 +163,7 @@ strong{
   
   
 }
-#showcase:hover{
-     background: url("../img/androidback.jpg") no-repeat 0;
-     background-position: center;
-     /* animation: fadeIn 2s; */
-     background-size: cover;
-     background-attachment: fixed; 
-  
-}
+
 #showcase p{
     
  
