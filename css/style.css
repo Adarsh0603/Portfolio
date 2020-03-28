@@ -223,6 +223,8 @@ strong{
 }
 #showapps{
    /* background: url("../img/apps.png") no-repeat;*/
+   
+   background: url("../img/androidback.jpg") no-repeat 0;
     background-position: center;
     background-size: cover;
     
@@ -467,6 +469,13 @@ width: 80%;
         background-color: #16161600;
      
   
+}
+#showgames{
+  display: inline-block;
+}
+
+#showapps{
+  display: inline-block;
 }
     #education
     {
