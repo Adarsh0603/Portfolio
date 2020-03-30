@@ -135,10 +135,19 @@ header a:hover{
     text-align: center;
     color: #fff; 
     opacity: 2;
-    background: url("../img/androidback.jpg") no-repeat 0;
+    /* background: url("../img/androidback.jpg") no-repeat 0; */
  background-position: center;
 background-size: cover;
 background-attachment: fixed; 
+}
+
+#showcase:hover{
+  background: url("../img/androidback.jpg") no-repeat 0;
+  background-position: center;
+  animation:animatedBackground 0.5s; 
+  background-size:cover;
+  background-attachment:fixed; 
+
 }
 
 strong{
@@ -780,3 +789,8 @@ margin-left: 40px;
     -webkit-animation-name: tada;
     animation-name: tada;
   }
+  @keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: center; }
+  }
+  
