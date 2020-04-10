@@ -29,7 +29,12 @@ body{
     overflow: hidden;
 }
 
-
+.newApp{
+  font-size: 10px;
+  background: #E8491D;
+  font-weight: bold;
+  
+}
 
 ul{
     margin: 0;
