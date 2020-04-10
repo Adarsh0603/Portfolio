@@ -28,11 +28,15 @@ body{
     margin: auto;
     overflow: hidden;
 }
-
+.skills{
+ margin-left: 100px;
+ margin-bottom: -20px;
+}
 .newApp{
   font-size: 10px;
   background: #E8491D;
   font-weight: bold;
+  padding: 2px;
   
 }
 
@@ -329,9 +333,10 @@ width: 30%;
     margin-left: 100px;
 }
 
+
 #education h1{
     font-family: noto;
-font-size: 56px;
+font-size: 45px;
 margin-bottom: 10px;
 }
 
@@ -408,6 +413,10 @@ footer{
          margin-left:0px;      
         font-family: showcaseFont;
   
+    }
+    .skills {
+      margin-left: 40px;
+      margin-bottom: -20px;
     }
   #showapps h1{
         font-size: 30px;
@@ -508,8 +517,8 @@ header{
 
    float: none;
         text-align:left;
-    width: 100%;
-margin-left: 40px;
+    width: 20%;
+/* margin-left: 40px; */
         
 }
 
