@@ -1,204 +1,186 @@
 @font-face {
-    font-family: showcaseFont;
-    src: url("../fonts/WorkSans-Black.otf");
-  }
-  @font-face {
-    font-family:poppins;
-    src: url("../fonts/Poppins-Regular.ttf");
-  }
-  @font-face {
-    font-family:noto;
-    src: url("../fonts/Noto_Serif/NotoSerif-Bold.ttf");
-  }
+  font-family: showcaseFont;
+  src: url("../fonts/WorkSans-Black.otf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: noto;
+  src: url("../fonts/Noto_Serif/NotoSerif-Bold.ttf");
+}
 
-strike{
+strike {
   color: rgba(43, 134, 238, 1);
 }
 
-body{
-    font: 15px/1.5 Arial,Helvetica,sans-serif;
-    padding: 0;
-    margin: 0;
-    
-    background-color:#000;
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+
+  background-color: #000;
 }
 /*Global*/
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
-.skills{
- margin-left: 100px;
- margin-bottom: -20px;
+.skills {
+  margin-left: 100px;
+  margin-bottom: -20px;
 }
-.newApp{
+.newApp {
   font-size: 10px;
-  background: #E8491D;
+  background: #e8491d;
   font-weight: bold;
   padding: 2px;
-  
 }
-.project img:hover{
+/* .project img:hover{
   transition: all 1s;
   transform: scale(1.5);
+} */
+ul {
+  margin: 0;
+  padding: 0;
 }
-ul{
-    margin: 0;
-    padding: 0; 
-}
-.dark{
-    background: #35424a;
-    color: #fff;
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.dark {
+  background: #35424a;
+  color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*header*/
-header{  
-    width: 100%;
+header {
+  width: 100%;
 
-background: #07080A;
-color:#ffffff; 
-padding-top: 20px;
-min-height: 70px;
-border-bottom:rgba(43, 134, 238, 1) 3px solid;
+  background: #07080a;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: rgba(43, 134, 238, 1) 3px solid;
 }
 
-header a{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bold;
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-header img{
-    margin-right:-20px;
-margin-top: -20px;
-    width: 30%;
-vertical-align: middle;
- display: inline;
+header img {
+  margin-right: -20px;
+  margin-top: -20px;
+  width: 30%;
+  vertical-align: middle;
+  display: inline;
 }
 
-
-header .logomatch{
-    color: #E6CF78;
-    margin-left: 5px;
+header .logomatch {
+  color: #e6cf78;
+  margin-left: 5px;
 }
 
-header li{
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
 }
 
-header #branding{
-    float:left;
-    margin-top:0px;
-
+header #branding {
+  float: left;
+  margin-top: 0px;
 }
-div #branding{
-    
-        animation: bounceInLeft 1s;
-      
+div #branding {
+  animation: bounceInLeft 1s;
 }
 
-header #branding h1{
-    margin: 0;
-    width:80px;
-display:inline;
+header #branding h1 {
+  margin: 0;
+  width: 80px;
+  display: inline;
 }
 
-header nav{
-    float: right;
-    margin-top: 20px;
+header nav {
+  float: right;
+  margin-top: 20px;
 }
 
-header .highlight, header .current a{
-color: #E6CF78; 
-font-weight: bold;
+header .highlight,
+header .current a {
+  color: #e6cf78;
+  font-weight: bold;
 }
-header a:hover{
-    color: #E6CF78;
-    font-weight: bold;
- 
-  
+header a:hover {
+  color: #e6cf78;
+  font-weight: bold;
 }
-
 
 /*icons*/
-.icon{
-    width: 2%;
-    margin:20px;
+.icon {
+  width: 2%;
+  margin: 20px;
 }
-.icon:hover{
-    animation: tada 1s;
+.icon:hover {
+  animation: tada 1s;
 }
-.bottomDesign{
-    margin-bottom: 0px;
+.bottomDesign {
+  margin-bottom: 0px;
 }
 /*showcase*/
-#showcase{
-    min-height: 800px;
-    /*background: url("../img/back.png") no-repeat 0;*/
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    color: #fff; 
-    opacity: 2;
-    /* background: url("../img/androidback.jpg") no-repeat 0; */
- background-position: center;
-background-size: cover;
-background-attachment: fixed; 
+#showcase {
+  min-height: 800px;
+  /*background: url("../img/back.png") no-repeat 0;*/
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: #fff;
+  opacity: 2;
+  /* background: url("../img/androidback.jpg") no-repeat 0; */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-#showcase:hover{
+#showcase:hover {
   background: url("../img/androidback.jpg") no-repeat 0;
   background-position: center;
-  animation:animatedBackground 0.5s; 
-  background-size:cover;
-  background-attachment:fixed; 
-
+  animation: animatedBackground 0.5s;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-strong{
-    color: rgb(255, 255, 255);
-    opacity: 1;
-    
+strong {
+  color: rgb(255, 255, 255);
+  opacity: 1;
 }
 
+#showcase h1 {
+  animation: bounceInUp 2s;
 
+  margin-top: 150px;
+  font-size: 65px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: left;
 
-#showcase h1{
-    
-    animation: bounceInUp 2s;
-    
-    margin-top: 150px;
-    font-size: 65px;
-    margin-bottom: 10px;
-    color:#fff;
-    text-align: left;
- 
-    font-family: showcaseFont;
-  
-  
+  font-family: showcaseFont;
 }
 
-#showcase p{
-    
- 
-    animation: bounceInUp 1s;
-    text-align: left;
-    font-size: 20px;
-    width: 70%;
-    margin-left: 300px;
-    opacity: 1;
-    color: rgb(231, 218, 218);
-    font-family :poppins;
-
+#showcase p {
+  animation: bounceInUp 1s;
+  text-align: left;
+  font-size: 20px;
+  width: 70%;
+  margin-left: 300px;
+  opacity: 1;
+  color: rgb(231, 218, 218);
+  font-family: poppins;
 }
-
 
 /*Work*/
 /*
@@ -214,601 +196,578 @@ strong{
    
 }*/
 
-#showgames h1{   font-size: 60px;
-    margin-left:60px;
-    
-    font-family: showcaseFont;}
-#showapps h1{
-    font-size: 60px;
-    margin-left:60px;
-    
-    font-family: showcaseFont;
-}
-#showgames{
-   /*background: url("../img/unity6.png") no-repeat;*/
-   background-position: center;
-   background-size: cover;
-   
-   animation: fadeIn 3s;
-   background-attachment: fixed;
-    padding: 20px;
-    color: white;
-    background-color: rgb(0, 0, 0);
-}
-#showapps{
-   /* background: url("../img/apps.png") no-repeat;*/
-   
-   /* background: url("../img/androidback.jpg") no-repeat 0; */
-    background-position: center;
-    background-size: cover;
-    
-   animation: fadeIn 3s;
-    background-attachment: fixed;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    background-color: rgb(0, 0, 0);/*21,21,21*/
-}
+#showgames h1 {
+  font-size: 60px;
+  margin-left: 60px;
 
-#gamedetail  img{
-    width: 25%;
-   margin-left: 200px;
- 
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: showcaseFont;
 }
-#showapps img{
-    width: 20%;
-    margin-left: 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#showapps h1 {
+  font-size: 60px;
+  margin-left: 60px;
+
+  font-family: showcaseFont;
+}
+#showgames {
+  /*background: url("../img/unity6.png") no-repeat;*/
+  background-position: center;
+  background-size: cover;
+
+  animation: fadeIn 3s;
+  background-attachment: fixed;
+  padding: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+#showapps {
+  /* background: url("../img/apps.png") no-repeat;*/
+
+  /* background: url("../img/androidback.jpg") no-repeat 0; */
+  background-position: center;
+  background-size: cover;
+
+  animation: fadeIn 3s;
+  background-attachment: fixed;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(0, 0, 0); /*21,21,21*/
 }
 
+#gamedetail img {
+  width: 25%;
+  margin-left: 200px;
 
-
-#gamedetail p{
-    width: 650px;
-    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#showapps img {
+  width: 20%;
+  margin-left: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-#gamedetail a{
-    text-decoration: none;
-    color: #E6CF78;
+#gamedetail p {
+  width: 650px;
 }
 
-
-
-#gamedetail .gamecontent{
-    float:left;
-    
- 
-    font-family: poppins;
-    text-align: left;
-    font-size: 18px;
+#gamedetail a {
+  text-decoration: none;
+  color: #e6cf78;
 }
 
-.project
-{margin-bottom: 30px;
-    margin-top: 30px;
-    min-height: 100px;
-   margin-left:40px;
-    margin-right:40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding:20px;
-    background: rgba(0,0,0);
+#gamedetail .gamecontent {
+  float: left;
+
+  font-family: poppins;
+  text-align: left;
+  font-size: 18px;
+}
+
+.project {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  min-height: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  background: rgba(0, 0, 0);
 }
 
 /*About Me*/
-#aboutme h1{
-    margin-left: 100px;
-font-family: noto;
-font-size: 45px;
-animation: bounceInUp 0.5s;
-color: #fff;
-word-spacing: 10px;
+#aboutme h1 {
+  margin-left: 100px;
+  font-family: noto;
+  font-size: 45px;
+  animation: bounceInUp 0.5s;
+  color: #fff;
+  word-spacing: 10px;
 }
-#aboutme .mypic{
-    width: 25%;
-    float: left;
-    box-shadow: 0 4px 8px 0 rgba(19, 18, 18, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#aboutme .mypic {
+  width: 25%;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(19, 18, 18, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-padding: 10px;
-    margin-left: 100px;
+  padding: 10px;
+  margin-left: 100px;
 }
-#aboutme p{
-    
-    margin-left: 600px;
-    color: white;
-    position: relative;
-text-align: left;
-width: 30%;
-    font-family: Droid serif;
-        line-height: 1.8;
-        font-weight: 500;
-        color: #999;
-        font-size: 20px;
-        background-color: #16161600;
-     
-  
+#aboutme p {
+  margin-left: 600px;
+  color: white;
+  position: relative;
+  text-align: left;
+  width: 30%;
+  font-family: Droid serif;
+  line-height: 1.8;
+  font-weight: 500;
+  color: #999;
+  font-size: 20px;
+  background-color: #16161600;
 }
-#education{
-    color: white;
-    margin-left: 100px;
+#education {
+  color: white;
+  margin-left: 100px;
 }
 
-
-#education h1{
-    font-family: noto;
-font-size: 45px;
-margin-bottom: 10px;
+#education h1 {
+  font-family: noto;
+  font-size: 45px;
+  margin-bottom: 10px;
 }
 
-#education p{
-    
-    margin-left: 100px;
-    color: white;
-   
-text-align: left;
-width: 30%;
-    font-family: Droid serif;
-        line-height: 1.8;
-        font-weight: 500;
-        color: #999;
-        font-size: 20px;
-        background-color: #16161600;
-     
-  
-}
-  
-#education ul{
-    margin-left: 100px;
-   
-list-style: none;
-    color:#fff;
-    font-size: 22px;
-    font-weight: bold;
-}
-#education li{
-    float: left;
+#education p {
+  margin-left: 100px;
+  color: white;
 
+  text-align: left;
+  width: 30%;
+  font-family: Droid serif;
+  line-height: 1.8;
+  font-weight: 500;
+  color: #999;
+  font-size: 20px;
+  background-color: #16161600;
 }
 
+#education ul {
+  margin-left: 100px;
 
-footer{
-    padding: 10px;
-    margin-top: 0px;
-    text-align: center;
-    display:inline-block;
-    color: #fff;
-    background-color: #000000;
-    border-top: rgba(43, 134, 238, 1) 3px solid;
+  list-style: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+#education li {
+  float: left;
 }
 
+footer {
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  background-color: #000000;
+  border-top: rgba(43, 134, 238, 1) 3px solid;
+}
 
 /*Media Queries*/
-@media(max-width:768px) {
+@media (max-width: 768px) {
+  .icon {
+    width: 5%;
+    margin: 20px;
+  }
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar,
+  .gamecontent {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+  header img {
+    margin: auto;
+    width: 65%;
+    display: block;
+  }
+  #showgames h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0px;
+    font-family: showcaseFont;
+  }
+  .skills {
+    margin-left: 40px;
+    margin-bottom: -20px;
+  }
+  #showapps h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0px;
+    font-family: showcaseFont;
+  }
+  .project {
+    background: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
 
-    .icon{
-        width: 5%;
-        margin:20px;
-    }
-    header #branding,
-    header nav,
-    header nav li,
-    #newsletter h1,
-    #boxes .box,
-    article#main-col,
-    aside#sidebar,.gamecontent{
-        float: none;
-        width: 100%;
-        text-align: center;
-        padding-left: 0px;
-        padding-right: 10px;
-    }
-    header img{
-        margin: auto;
-        width: 65%;
-        display: block;
-    }
-    #showgames h1{
-        font-size: 30px;
-        text-align: center;
-         margin-left:0px;      
-        font-family: showcaseFont;
-  
-    }
-    .skills {
-      margin-left: 40px;
-      margin-bottom: -20px;
-    }
-  #showapps h1{
-        font-size: 30px;
-        text-align: center;
-        margin-left:0px;
-        font-family: showcaseFont;
-    }
-    .project{
-        background: none;
-     margin-left:0px;
-        margin-right:0px;
-        text-align: center;
-    }
-
-    #gamedetail p{
+  #gamedetail p {
     float: none;
     width: 60%;
     margin-left: 40px;
     padding-bottom: 0px;
     text-align: left;
-    }
-    #gamedetail a{
+  }
+  #gamedetail a {
+    text-align: center;
+  }
 
-       text-align: center;
-    }
-    
-#gamedetail  img{
-    width: 100%;
-   margin-left: 0px;
-   animation: bounceInLeft 2s; 
-  
-}
-
-#showapps img{
+  #gamedetail img {
     width: 100%;
     margin-left: 0px;
-  
-}
-#aboutme p{
-    
+    animation: bounceInLeft 2s;
+  }
+
+  #showapps img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #aboutme p {
     margin-left: 0px;
     color: white;
-    
-text-align: center;
-width: 100%;
-  
-}
-    #aboutme h1{
+
+    text-align: center;
+    width: 100%;
+  }
+  #aboutme h1 {
     margin-left: 40px;
-        text-align:left;
-        width:60%;
-    }
-    
-    #aboutme .mypic{
-        display: none;
-    }
-#education p{
-    
+    text-align: left;
+    width: 60%;
+  }
+
+  #aboutme .mypic {
+    display: none;
+  }
+  #education p {
     margin-left: 40px;
     color: white;
-   
-text-align: left;
-width: 80%;
+
+    text-align: left;
+    width: 80%;
     font-family: Droid serif;
-        line-height: 1.8;
-        font-weight: 500;
-        color: #999;
-        font-size: 20px;
-        background-color: #16161600;
-     
-  
-}
-#showgames{
-  display: inline-block;
-}
+    line-height: 1.8;
+    font-weight: 500;
+    color: #999;
+    font-size: 20px;
+    background-color: #16161600;
+  }
+  #showgames {
+    display: inline-block;
+  }
 
-#showapps{
-  display: inline-block;
-}
-    #education
-    {
-        margin: 0px;
-    }
-#education ul,li{
-
+  #showapps {
+    display: inline-block;
+  }
+  #education {
+    margin: 0px;
+  }
+  #education ul,
+  li {
     margin-left: 0px;
     text-align: center;
-    
-}
-#showcase p{
+  }
+  #showcase p {
     margin-left: auto;
     text-align: center;
-}
-  
-header{
+  }
+
+  header {
     padding-bottom: 20px;
-}
-    #education li,ul{
-
-   float: none;
-        text-align:left;
+  }
+  #education li,
+  ul {
+    float: none;
+    text-align: left;
     width: 20%;
-/* margin-left: 40px; */
-        
-}
+    /* margin-left: 40px; */
+  }
 
-#showcase{
-  background: url("../img/androidback.jpg") no-repeat 0;
-    background-position:bottom;
+  #showcase {
+    background: url("../img/androidback.jpg") no-repeat 0;
+    background-position: bottom;
     /* animation: fadeIn 2s; */
- background-size: contain;
-/*      background-attachment: fixed;  */
-}
+    background-size: contain;
+    /*      background-attachment: fixed;  */
+  }
 
-
-    #showcase p,.project h2,#education h1,#mydetail p{
+  #showcase p,
+  .project h2,
+  #education h1,
+  #mydetail p {
     float: none;
     width: 70%;
-margin-left: 40px;
-        padding-bottom:40px;
-        margin-bottom: 0px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
     text-align: left;
-}
-
+  }
 }
 /*Animations*/
 
 /*Bounce in Left*/
 @-webkit-keyframes bounceInLeft {
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-  
-    0% {
-      opacity: 0;
-      -webkit-transform: translate3d(-3000px, 0, 0);
-      transform: translate3d(-3000px, 0, 0);
-    }
-  
-    60% {
-      opacity: 1;
-      -webkit-transform: translate3d(25px, 0, 0);
-      transform: translate3d(25px, 0, 0);
-    }
-  
-    75% {
-      -webkit-transform: translate3d(-10px, 0, 0);
-      transform: translate3d(-10px, 0, 0);
-    }
-  
-    90% {
-      -webkit-transform: translate3d(5px, 0, 0);
-      transform: translate3d(5px, 0, 0);
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  @keyframes bounceInLeft {
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-  
-    0% {
-      opacity: 0;
-      -webkit-transform: translate3d(-3000px, 0, 0);
-      transform: translate3d(-3000px, 0, 0);
-    }
-  
-    60% {
-      opacity: 1;
-      -webkit-transform: translate3d(25px, 0, 0);
-      transform: translate3d(25px, 0, 0);
-    }
-  
-    75% {
-      -webkit-transform: translate3d(-10px, 0, 0);
-      transform: translate3d(-10px, 0, 0);
-    }
-  
-    90% {
-      -webkit-transform: translate3d(5px, 0, 0);
-      transform: translate3d(5px, 0, 0);
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  .bounceInLeft {
-    -webkit-animation-name: bounceInLeft;
-    animation-name: bounceInLeft;
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 
-  /*Bounce in Up*/
-  @-webkit-keyframes bounceInUp {
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-  
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 3000px, 0);
-      transform: translate3d(0, 3000px, 0);
-    }
-  
-    60% {
-      opacity: 1;
-      -webkit-transform: translate3d(0, -20px, 0);
-      transform: translate3d(0, -20px, 0);
-    }
-  
-    75% {
-      -webkit-transform: translate3d(0, 10px, 0);
-      transform: translate3d(0, 10px, 0);
-    }
-  
-    90% {
-      -webkit-transform: translate3d(0, -5px, 0);
-      transform: translate3d(0, -5px, 0);
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
   }
-  
-  @keyframes bounceInUp {
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-  
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 3000px, 0);
-      transform: translate3d(0, 3000px, 0);
-    }
-  
-    60% {
-      opacity: 1;
-      -webkit-transform: translate3d(0, -20px, 0);
-      transform: translate3d(0, -20px, 0);
-    }
-  
-    75% {
-      -webkit-transform: translate3d(0, 10px, 0);
-      transform: translate3d(0, 10px, 0);
-    }
-  
-    90% {
-      -webkit-transform: translate3d(0, -5px, 0);
-      transform: translate3d(0, -5px, 0);
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
   }
-  
-  .bounceInUp {
-    -webkit-animation-name: bounceInUp;
-    animation-name: bounceInUp;
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
   }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+/*Bounce in Up*/
+@-webkit-keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
 /*fade in*/
 @-webkit-keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-  
-  .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
+  from {
+    opacity: 0;
   }
 
-  /*tada*/
-  @-webkit-keyframes tada {
-    from {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-  
-    10%,
-    20% {
-      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-    }
-  
-    30%,
-    50%,
-    70%,
-    90% {
-      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    }
-  
-    40%,
-    60%,
-    80% {
-      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    }
-  
-    to {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
+  to {
+    opacity: 1;
   }
-  
-  @keyframes tada {
-    from {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-  
-    10%,
-    20% {
-      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-    }
-  
-    30%,
-    50%,
-    70%,
-    90% {
-      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    }
-  
-    40%,
-    60%,
-    80% {
-      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    }
-  
-    to {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  .tada {
-    -webkit-animation-name: tada;
-    animation-name: tada;
+
+  to {
+    opacity: 1;
   }
-  @keyframes animatedBackground {
-    from { background-position: 0 0; }
-    to { background-position: center; }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/*tada*/
+@-webkit-keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
-  
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: center;
+  }
+}
