@@ -31,6 +31,7 @@ body {
 .skills {
   margin-left: 100px;
   margin-bottom: -20px;
+  font-family: poppins;
 }
 .newApp {
   font-size: 10px;
@@ -45,6 +46,9 @@ body {
 ul {
   margin: 0;
   padding: 0;
+}
+.footer-text {
+  font-family: poppins;
 }
 .dark {
   background: #35424a;
@@ -299,7 +303,7 @@ strong {
   position: relative;
   text-align: left;
   width: 30%;
-  font-family: Droid serif;
+  font-family: poppins;
   line-height: 1.8;
   font-weight: 500;
   color: #999;
@@ -324,7 +328,7 @@ strong {
 
   text-align: left;
   width: 30%;
-  font-family: Droid serif;
+  font-family: poppins;
   line-height: 1.8;
   font-weight: 500;
   color: #999;
