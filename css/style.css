@@ -287,7 +287,7 @@ strong {
 /*About Me*/
 #aboutme h1 {
   margin-left: 100px;
-  font-family: noto;
+  font-family: showcaseFont;
   font-size: 45px;
   animation: bounceInUp 0.5s;
   color: #fff;
@@ -322,7 +322,7 @@ strong {
 
 #education h1 {
   clear: left;
-  font-family: noto;
+  font-family: showcaseFont;
   font-size: 45px;
   margin-bottom: 10px;
 }
