@@ -22,7 +22,12 @@ body {
 
   background-color: #000;
 }
+
 /*Global*/
+.nameStyle {
+  font-weight: 100;
+  font-family: poppins;
+}
 .container {
   width: 80%;
   margin: auto;
@@ -34,10 +39,8 @@ body {
   font-family: poppins;
 }
 .newApp {
-  font-size: 10px;
-  background: #e8491d;
   font-weight: bold;
-  padding: 2px;
+  color: #a392ff;
 }
 /* .project img:hover{
   transition: all 1s;
@@ -87,7 +90,9 @@ header img {
 
 header .logomatch {
   color: #e6cf78;
-  margin-left: 5px;
+  font-weight: bold;
+  font-family: poppins;
+  /* margin-left: 5px; */
 }
 
 header li {
@@ -364,6 +369,7 @@ footer {
     width: 5%;
     margin: 20px;
   }
+
   header #branding,
   header nav,
   header nav li,
@@ -377,6 +383,9 @@ footer {
     text-align: center;
     padding-left: 0px;
     padding-right: 10px;
+  }
+  header nav {
+    float: left;
   }
   header img {
     margin: auto;
@@ -482,8 +491,10 @@ footer {
   #education li,
   ul {
     float: none;
-    text-align: left;
-    width: 20%;
+    text-align: center;
+    width: 100%;
+
+    margin: auto;
     /* margin-left: 40px; */
   }
 
