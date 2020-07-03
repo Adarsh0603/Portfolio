@@ -287,11 +287,13 @@ strong {
 /*About Me*/
 #aboutme h1 {
   margin-left: 100px;
-  font-family: showcaseFont;
+  font-family: poppins;
   font-size: 45px;
   animation: bounceInUp 0.5s;
   color: #fff;
+  font-weight: 100;
   word-spacing: 10px;
+  line-height: 1.2;
 }
 #aboutme .mypic {
   width: 25%;
@@ -322,7 +324,7 @@ strong {
 
 #education h1 {
   clear: left;
-  font-family: showcaseFont;
+  font-family: poppins;
   font-size: 45px;
   margin-bottom: 10px;
 }
