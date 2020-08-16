@@ -10,8 +10,10 @@ blockProjects.forEach((result, idx) => {
   <div class="projectblock" >
     <div class="projectcontent">
       <h1 class="pbtitle">${result.title}</h1>
-      <p class="pbdescription">${result.description}</p>
-    
+      <hr style="margin: 0px; height:1px; width:20%"/>
+      <br>
+      <br>
+      <img src="./img/flutterlogo.png" width="10%"  >
       <span class="pbicon">
       
           <i class="fab fa-google-play "></i>
@@ -26,28 +28,3 @@ blockProjects.forEach((result, idx) => {
   // Append newyly created card element to the container
   container.innerHTML += content;
 });
-
-// top button
-
-// //Get the button:
-// var mybutton = document.getElementById("btnscroll");
-// mybutton.addEventListener("click", topFunction);
-// // When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function () {
-//   scrollFunction();
-// };
-
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     mybutton.style.display = "block";
-//   } else {
-//     mybutton.style.display = "none";
-//   }
-// }
-
-// // When the user clicks on the button, scroll to the top of the document
-// function topFunction() {
-//   console.log("called");
-//   document.body.scrollTop = 0; // For Safari
-//   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-// }

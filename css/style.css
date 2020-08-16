@@ -56,7 +56,7 @@ body {
   text-align: center;
 }
 .container {
-  padding: 10px 30px 10px 30px;
+  padding: 10px 20px 10px 20px;
   overflow: hidden;
 }
 .skills {
@@ -308,7 +308,7 @@ strong {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   outline-offset: 0px;
   outline: 1px groove rgba(255, 255, 255, 0);
-
+  padding: 20px 40px 60px;
   transition: 0.5s;
   position: relative;
 }
@@ -324,12 +324,10 @@ strong {
   cursor: pointer;
 }
 
-.projectcontent {
-  padding: 48px;
-}
-
 .pbtitle {
   color: #fff;
+  margin: 40px 0px;
+  font-family: droid;
 }
 
 .pbdescription {
@@ -603,7 +601,7 @@ footer {
   }
 
   .heading {
-    font-size: 36px;
+    font-size: 33px;
     padding-left: 0px;
   }
 
@@ -625,7 +623,8 @@ footer {
     padding: 0px;
   }
   .projectblock {
-    margin: 8px;
+    margin: 10px;
+    height: 180px;
   }
 
   /* ------------------------------ */
@@ -707,7 +706,7 @@ footer {
   }
 
   #showcase h1 {
-    font-size: 65px;
+    font-size: 60px;
     margin-top: 0px;
   }
   #showgames h1 {
@@ -800,8 +799,8 @@ footer {
   }
   #showcase p {
     width: 80%;
-    margin-left: 30px;
-    font-size: 20px;
+    margin-left: 20px;
+    font-size: 18px;
     margin-bottom: 0px;
   }
 
