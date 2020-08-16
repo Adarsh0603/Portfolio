@@ -4,9 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
-    <title>Adarsh Verma</title>
+    <title>Adarsh Verma | Mobile & Web Developer</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -18,24 +22,25 @@
   </head>
 
   <body>
+    <div id="btnscroll" title="Go to top">
+      <i class="fas fa-arrow-left"></i>
+      UP
+    </div>
     <header>
       <div class="headerinsets">
         <div id="branding">
           <!-- <img src="./img/av5.png" /> -->
-          <a href="index.html"> <h1 class="nameStyle">adarsh<span class="logomatch">verma</span></h1></a>
+          <a href="index.html">
+            <h1 class="nameStyle">
+              adarsh<span class="logomatch">verma</span>
+            </h1></a
+          >
         </div>
         <nav>
           <ul>
-            <!-- <li class="current"><a href="index.html">Home</a></li> -->
-
             <li><a href="work.html">Work</a></li>
             <li><a href="about.html">About</a></li>
 
-            <!-- <li>
-              <a target="_blank" href="https://icmotiongraphics.blogspot.com/"
-                >Blog</a
-              > -->
-            </li>
             <li class="newApp">
               <a
                 target="_blank"
@@ -51,9 +56,8 @@
     <section id="showcase">
       <div class="container">
         <h1>
-          Code. Design. Music. <br />And A Cup Of <strike>Coffee </strike>  Tea
+          Code. Design. Music. <br />And A Cup Of <strike>Coffee </strike> Tea
         </h1>
- 
       </div>
 
       <p>
@@ -61,41 +65,59 @@
         <strong>confused</strong> learner. Started learning animation with
         <strong>Blender</strong>. Dived into making games with
         <strong>Unity</strong>, and it was a headstart to development. Currently
-        working on Mobile <strong>App Development.
-
+        working on Mobile <strong>App Development.</strong>
       </p>
-      
+    </section>
+    <h1 class="squig">_____</h1>
+    <section id="bottomblock">
+      <div class="container">
+        <h1 class="heading">
+          Get an overview <br />
+          of my latest projects
+        </h1>
+      </div>
 
+      <div class="projectsgrid">
+        <div class="flex-container" id="pblocks">
+          <!-- thr js -->
+        </div>
+      </div>
+      <div class="btncenterdiv">
+        <a class="btnfilled" href="./work.html">
+          Show All Projects
+        </a>
+      </div>
     </section>
 
     <footer>
-      <div class="bottomDesign">
-        <a href="https://www.instagram.com/adarsh0603/" target="_blank"
-          ><img class="icon" src="./icons/instagram.png"
-        /></a>
-        <a href="https://www.facebook.com/adarshhts.verma" target="_blank"
-          ><img class="icon" src="./icons/facebook.png"
-        /></a>
-        <a href="https://www.linkedin.com/in/adarshverma1010/" target="_blank"
-          ><img class="icon" src="./icons/linkedin.png"
-        /></a>
-        <a href="https://in.pinterest.com/chintuv20/" target="_blank"
-          ><img class="icon" src="./icons/pinterest.png"
-        /></a>
+      <div class="footercontent">
+        <div class="bottomDesign">
+          <a href="https://www.instagram.com/adarsh0603/" target="_blank"
+            ><img class="icon" src="./icons/instagram.png"
+          /></a>
+          <a href="https://www.facebook.com/adarshhts.verma" target="_blank"
+            ><img class="icon" src="./icons/facebook.png"
+          /></a>
+          <a href="https://www.linkedin.com/in/adarshverma1010/" target="_blank"
+            ><img class="icon" src="./icons/linkedin.png"
+          /></a>
+          <a href="https://in.pinterest.com/chintuv20/" target="_blank"
+            ><img class="icon" src="./icons/pinterest.png"
+          /></a>
 
-        <a href="https://github.com/Adarsh0603" target="_blank"
-          ><img class="icon" src="./icons/github.png"
-        /></a>
+          <a href="https://github.com/Adarsh0603" target="_blank"
+            ><img class="icon" src="./icons/github.png"
+          /></a>
+        </div>
+        <p class="footer-text">
+          Made with
+          <i class="fas fa-heart" style="color: crimson;"> </i> by Adarsh
+          <br />
+          © 2019 - 2020
+        </p>
       </div>
-      <p class="footer-text">
-        <!-- <strong
-          ><i class="fas fa-angle-left fa-lg"></i
-          ><i class="fas fa-angle-right fa-lg"></i
-        ></strong> -->
-       Made with  <i class="fas fa-heart" style="color: crimson;"> </i> by Adarsh
-      </p>
     </footer>
-
-
+    <script src="./index.js" type="module"></script>
+    <script src="./utils.js" type="module"></script>
   </body>
 </html>
