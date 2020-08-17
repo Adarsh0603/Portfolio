@@ -7,7 +7,11 @@
     <title>Work | Adarsh Verma</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script type="text/javascript">
+      $(window).on("load", function () {
+        $(".spinner").fadeOut("slow");
+      });
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -47,7 +51,12 @@
       </div>
     </header>
 
-    <section id="apps"></section>
+    <section id="apps">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </section>
 
     <footer>
       <div class="footercontent">
@@ -86,6 +95,7 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+
     <script src="./work.js" type="module"></script>
     <script src="./utils.js" type="module"></script>
   </body>

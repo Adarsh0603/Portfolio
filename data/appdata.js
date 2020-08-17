@@ -24,6 +24,29 @@ const apps = [
   },
 
   {
+    title: "CourseCup",
+    description:
+      "Find a course that suits your needs from over 2100 free courses available on top online course providers Udacity, Coursera and edx .",
+    stack: "Flutter | Dart | Python | Firebase",
+    images: [
+      "./projects/coursecup.png",
+      "./projects/coursecup2.png",
+      "./projects/coursecup3.png",
+    ],
+    actions: [
+      {
+        icon: "fab fa-google-play",
+        link:
+          "https://play.google.com/store/apps/details?id=com.adarshverma.courselister&hl=en",
+      },
+      {
+        icon: "fab fa-github",
+        link: "https://github.com/Adarsh0603/CourseCup",
+      },
+    ],
+  },
+
+  {
     title: "notebee",
     description: "A simple note taking app.<br>\
       With label sorting.",
@@ -31,7 +54,7 @@ const apps = [
     images: [
       "./projects/notebee.png",
       "./projects/notebee2.png",
-      "./projects/notebee.png",
+      "./projects/notebee3.png",
     ],
     actions: [
       {
@@ -47,30 +70,16 @@ const apps = [
   },
 
   {
-    title: "CourseCup",
-    description:
-      "Find a course that suits your needs from over 2100 free courses available on top online course providers Udacity, Coursera and edx .",
-    stack: "Flutter | Dart | Python | Firebase",
-    images: ["./projects/coursecup.png"],
-    actions: [
-      {
-        icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.courselister&hl=en",
-      },
-      {
-        icon: "fab fa-github",
-        link: "https://github.com/Adarsh0603/CourseCup",
-      },
-    ],
-  },
-  {
     title: "Dictionary",
     description:
       "Simple, sleek dictionary app.\
       Get every definition of a word with usage examples.",
     stack: "Flutter | Dart | Owlbot API",
-    images: ["./projects/dictionary.png"],
+    images: [
+      "./projects/dictionary.png",
+      "./projects/dictionary2.png",
+      "./projects/dictionary.png",
+    ],
     actions: [
       {
         icon: "fab fa-google-play",
@@ -102,6 +111,32 @@ const apps = [
       {
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/nadtoolkit",
+      },
+    ],
+  },
+  {
+    title: "Number Converter",
+    description: "An app for number system conversion.",
+    stack: "Android Native | Java",
+    images: ["./projects/nc.png", "./projects/nc2.png", "./projects/nc3.png"],
+    actions: [
+      {
+        icon: "fab fa-google-drive",
+        link:
+          "https://drive.google.com/file/d/1TDKfMqwxWHV_qr1lZVjpGXyfhbydP_di/view",
+      },
+    ],
+  },
+  {
+    title: "WeightsApp",
+    description: "With 13 weight conversions.",
+    stack: "Android Native | Java",
+    images: ["./projects/wa.png"],
+    actions: [
+      {
+        icon: "fab fa-google-drive",
+        link:
+          "https://play.google.com/store/apps/details?id=com.refractionstudios.weightconverter&hl=en",
       },
     ],
   },
@@ -161,7 +196,7 @@ const apps = [
       {
         icon: "fas fa-mobile",
         link:
-          "https://www.amazon.com/Refraction-Studios-Pin-Wars/dp/B07CKPQH29/ref=sr_1_1?dchild=1&keywords=pinwars&qid=1597651640&sr=8-1",
+          "https://drive.google.com/file/d/1YBrqvnEUxPvDZqMOt6vu4zscPSxjCZ67/view?usp=sharing",
       },
     ],
   },

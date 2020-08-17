@@ -1,3 +1,7 @@
+$(window).load(function () {
+  $(".loader").fadeOut("slow");
+});
+
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
