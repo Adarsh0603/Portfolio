@@ -10,7 +10,8 @@ const projectBlocksData = [
     title: "notebee",
     image: "./projects/1.png",
     description: "FLUTTER",
-    url: "",
+    url:
+      "https://play.google.com/store/apps/details?id=com.adarshverma.notebee&hl=en",
   },
   {
     title: "CourseCup",

@@ -28,13 +28,15 @@ apps.forEach((app) => {
     <div class="workimage">
       ${
         app.images.length < 2
-          ? `<img src="${app.images[0]}" alt="" id="wimg" />`
+          ? app.isGame
+            ? `<img src="${app.images[0]}" alt="" id="wgameimg"/>`
+            : `<img src="${app.images[0]}" alt="" id="wimg" />`
           : `
       <div
         id="carouselExampleSlidesOnly"
         class="carousel slide"
         data-ride="carousel"
-        data-interval="2000"
+        data-interval="3000"
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -44,7 +46,7 @@ apps.forEach((app) => {
             <img src="${app.images[1]}" alt="" id="wimg" />
           </div>
           <div class="carousel-item">
-            <img src="${app.images[0]}" alt="" id="wimg" />
+            <img src="${app.images[2]}" alt="" id="wimg" />
           </div>
         </div>
       </div>
