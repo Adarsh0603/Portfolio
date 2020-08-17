@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
     <title>About | Adarsh Verma</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -17,19 +24,19 @@
 
   <body>
     <header>
-      <div class="headerinsets" >
+      <div class="headerinsets">
         <div id="branding">
           <!-- <img src="./img/av5.png" /> -->
-          <a href="index.html"> <h1 class="nameStyle">adarsh<span class="logomatch">verma</span></h1></a>
+          <a href="index.html">
+            <h1 class="nameStyle">
+              adarsh<span class="logomatch">verma</span>
+            </h1></a
+          >
         </div>
         <nav>
           <ul>
-            <!-- <li><a href="index.html">Home</a></li> -->
-
             <li><a href="work.html">Work</a></li>
             <li class="current"><a href="about.html">About</a></li>
-    
-            </li>
           </ul>
         </nav>
       </div>
@@ -37,59 +44,74 @@
 
     <section id="aboutme">
       <div>
-        <h1>Hello, I'm Adarsh! <br /></h1>
+        <h1 id="aboutheading">Hello, I'm Adarsh!<br />Mobile App Developer</h1>
       </div>
 
-      <div id="mydetail">
-        <img class="mypic" src="./img/backdrop1.png" />
-        <p>
-          I create mobile apps, games and websites currently just
-          for the sake of learning. For me, that means that not only
-          development, but also the graphical work is part of my field of
-          activity. The development section is really important to me, because I
-          thereby constantly improve my skills and stay up-to-date with new
-          methods and technology. Moreover, it presents a good change to the
-          creative part.
-        </p>
+      <!-- about main -->
+      <div class="about">
+        <div class="aboutleft">
+          <img src="./img/aboutimage.svg" />
+        </div>
+        <div class="aboutright">
+          <div class="vertical">FIND MORE ABOUT ME</div>
+          <p>
+            I create mobile apps, games and websites currently just for the sake
+            of learning. For me, that means that not only development, but also
+            the graphical work is part of my field of activity. The development
+            section is really important to me, because I thereby constantly
+            improve my skills and stay up-to-date with new methods and
+            technology. Moreover, it presents a good change to the creative
+            part.
+            <br />
+            <br />
+            Currently working on mobile app development with Flutter and
+            Firebase.
+          </p>
+        </div>
       </div>
-    </section>
-    <section id="education">
-      <div>
-        <h1>Education</h1>
 
-        <p>
-          Finished High-School in <strong>2018</strong>.<br />With enough
-          percentile to take admission in a college.
-        </p>
-        <p>
-          Currently doing graduation in <strong>Mtech(IT)</strong>.<br />Hope to
-          learn some good stuff in the next few years.
-      
-        </p>
+      <h1 class="squig">_____</h1>
+
+      <!-- education -->
+      <div class="about">
+        <div class="aboutleft">
+          <h1 class="abouttitle">Education</h1>
+        </div>
+        <div class="aboutright">
+          <p>
+            Finished High-School in <strong>2018</strong>.<br />With enough
+            percentile to take admission in a college.<br /><br />
+            Currently doing graduation in <strong>Mtech(IT)</strong>.<br />Hope
+            to learn some good stuff in the next few years.
+          </p>
+        </div>
       </div>
+      <h1 class="squig">_____</h1>
+
+      <!-- Contact -->
+      <div class="about">
+        <div class="aboutleft">
+          <h1 class="abouttitle">Get In Touch</h1>
+        </div>
+        <div class="aboutright">
+          <p>
+            Any App Idea? <br />
+            Feel free to contact<br />
+            <strong>E-mail</strong>.<br /><a
+              href="mailto:adarshverma0603@gmail.com"
+              id="email"
+              target="_blank"
+            >
+              adarshverma0603@gmail.com</a
+            ><br />
+            <strong>Mobile</strong><br />
+            +91 8109297583
+          </p>
+        </div>
+      </div>
+      <h1 class="squig">_____</h1>
     </section>
 
-    <section id="education">
-      <div>
-        <h1>Skills</h1>
-
-        <br />
-        <h3 class="skills">Mobile App Development</h3>
-        <!-- <br />
-        <h3 class="skills">Full Stack Web Development</h3> -->
-        <br />
-        <h3 class="skills">Unity Game Development</h3>
-      </div>
-    </section>
-    <br />
-    <br />
-    <section id="education">
-      <div>
-        <h1>Contact Me</h1>
-        <p>E-Mail : <br /><strong>adarshverma0603@gmail.com</strong></p>
-        <p>Contact no. : <br /><strong>+91 8109297583</strong></p>
-      </div>
-    </section>
     <footer>
       <div class="footercontent">
         <div class="bottomDesign">
@@ -113,11 +135,12 @@
         <p class="footer-text">
           Made with
           <i class="fas fa-heart" style="color: crimson;"> </i> by Adarsh
-          
         </p>
       </div>
     </footer>
-    <script src="./index.js" type="module"></script>
-
+    <script>
+      ScrollReveal().reveal(".about", { delay: 500 });
+      ScrollReveal().reveal(".aboutheading", { delay: 200 });
+    </script>
   </body>
 </html>

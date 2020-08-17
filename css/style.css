@@ -14,6 +14,10 @@
   font-family: droid;
   src: url("../fonts/DroidSerifBold-aMPE.ttf");
 }
+@font-face {
+  font-family: droidr;
+  src: url("../fonts/DroidSerif-Regular.ttf");
+}
 
 strike {
   color: #6f4e37;
@@ -98,6 +102,14 @@ ul {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.gridview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+}
 
 /*----------------------HEADER-----------------
 ------------------------------------------------*/
@@ -165,6 +177,9 @@ header .current a {
 header a:hover {
   color: #e6cf78;
   font-weight: bold;
+}
+.headerinsets a {
+  text-decoration: none;
 }
 
 /*-------------------ICONS--------------
@@ -325,6 +340,7 @@ strong {
 
 .pblink {
   text-decoration: none;
+  color: #999;
 }
 
 .projectblock:hover {
@@ -337,6 +353,7 @@ strong {
 .pbtitle {
   color: #fff;
   margin: 40px 0px;
+  font-size: 48px;
   font-family: droid;
 }
 
@@ -437,38 +454,72 @@ hr {
 
 /*-------------------------------ABOUT ME------------------
 -----------------------------------------------------------*/
-#aboutme h1 {
-  margin-left: 100px;
-  font-family: poppins;
-  font-size: 45px;
-  animation: bounceInUp 0.5s;
-  color: #fff;
-  font-weight: 100;
-  word-spacing: 10px;
-  line-height: 1.2;
+#aboutme {
+  padding: 200px 0px;
 }
-#aboutme .mypic {
-  width: 25%;
-  float: left;
-  box-shadow: 0 4px 8px 0 rgba(19, 18, 18, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  padding: 10px;
-  margin-left: 100px;
-}
-#aboutme p {
-  margin-left: 600px;
+#aboutheading {
+  animation: fadeIn 3s;
+  margin-left: 300px;
+  font-size: 78px;
+  font-family: droid;
   color: white;
-  position: relative;
-  text-align: left;
-  width: 30%;
-  font-family: poppins;
-  line-height: 1.8;
-  font-weight: 500;
-  color: #999;
-  font-size: 20px;
-  background-color: #16161600;
 }
+.about {
+  display: flex;
+}
+.aboutleft {
+  flex: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutright {
+  position: relative;
+  flex: 60%;
+  text-align: start;
+}
+
+.abouttitle {
+  font-size: 48px;
+  color: #fff;
+  font-family: droidr;
+}
+.about img {
+  width: 70%;
+}
+.about p {
+  font-family: droidr;
+  font-size: 20px;
+  color: #999;
+  font-weight: 400;
+  margin: 80px;
+  line-height: 1.8;
+}
+
+.aboutgrid {
+  padding: 20px 200px;
+}
+
+.vertical {
+  position: absolute;
+  left: -140px;
+  top: 20%;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  letter-spacing: 2px;
+  transform-origin: right bottom;
+  transform: rotate(-90deg);
+  line-height: 1;
+}
+#email {
+  text-decoration: none;
+  color: #c0a062;
+}
+/* ------------------------- */
+
 #education {
   color: white;
   margin-left: 100px;
@@ -571,7 +622,7 @@ footer {
   }
 
   .pbicon {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #c0a062;
   }
 
@@ -625,6 +676,41 @@ footer {
 
   /* --------------------------------------------------------------- */
 
+  /* -------------------MQABOUT --------------------------*/
+
+  #aboutme {
+    padding: 0px;
+  }
+  #aboutheading {
+    margin-left: 20px;
+    font-size: 32px;
+    font-family: droid;
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about p {
+    font-size: 18px;
+    margin: 10px 40px;
+  }
+  .vertical {
+    left: -160px;
+  }
+  .gridview {
+    grid-gap: 20px;
+  }
+  .aboutgrid {
+    padding: 10px 40px;
+  }
+  .abouttitle {
+    font-size: 32px;
+  }
   /* -------------------------------------- */
 
   header nav li,
@@ -677,22 +763,6 @@ footer {
     margin-bottom: -20px;
   }
 
-  #aboutme p {
-    margin-left: 0px;
-    color: white;
-
-    text-align: center;
-    width: 100%;
-  }
-  #aboutme h1 {
-    margin-left: 60px;
-    text-align: left;
-    width: 60%;
-  }
-
-  #aboutme .mypic {
-    display: none;
-  }
   #education p {
     margin-left: 60px;
     color: white;
@@ -741,15 +811,19 @@ footer {
     background-size: contain;
   }
 
-  .project h2,
+  #mydetail {
+    padding: 10px 20px;
+  }
   #education h1,
   #mydetail p {
     float: none;
-    width: 70%;
-    margin-left: 40px;
-    padding-bottom: 40px;
+    /* width: 70%; */
+    /* margin-left: 20px;
+    /* padding-bottom: 40px; */
     margin-bottom: 0px;
     text-align: left;
+    font-size: 18px;
+    color: #999999;
   }
 }
 /*----------------------------------------------ANIMATIONS---------------------------------------------

@@ -10,12 +10,10 @@ blockProjects.forEach((result, idx) => {
   <div class="projectblock" >
     <div class="projectcontent">
       <h1 class="pbtitle">${result.title}</h1>
-      <hr style="margin: 0px; height:1px; width:20%"/>
+      <hr style="margin: 0px; height:1px; width:40  %"/>
       <br>
-      <br>
-      <img src="./img/flutterlogo.png" width="10%"  >
       <span class="pbicon">
-      
+
           <i class="fab fa-google-play "></i>
       
       </span>
