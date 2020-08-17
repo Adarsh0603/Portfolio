@@ -353,7 +353,7 @@ strong {
 .pbtitle {
   color: #fff;
   margin: 40px 0px;
-  font-size: 48px;
+  font-size: 36px;
   font-family: droid;
 }
 
@@ -397,7 +397,7 @@ strong {
   width: 40%;
 }
 #wgameimg {
-  width: 100%;
+  width: 70%;
 }
 #wtitle {
   display: block;
@@ -650,15 +650,18 @@ footer {
     margin-bottom: 20px;
   }
   #wdescription {
-    font-size: 12px;
+    font-size: 16px;
     padding-right: 0px;
   }
   hr {
     margin-bottom: 5%;
     margin-top: 2%;
   }
+  #wgameimg {
+    width: 100%;
+  }
   #wicons {
-    font-size: 20px;
+    font-size: 28px;
   }
   #wicons i:hover {
     color: #c0a062;
@@ -667,11 +670,9 @@ footer {
   #wicons i {
     margin-right: 10px;
   }
-  #used {
-    font-size: 10px;
-  }
+
   #wstackused {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   /* --------------------------------------------------------------- */
@@ -1113,9 +1114,13 @@ footer {
   height: 40px;
 
   position: relative;
-  margin: 100px auto;
+  margin: auto auto;
 }
 
+.overlay {
+  height: 100vh;
+  padding-top: auto;
+}
 .double-bounce1,
 .double-bounce2 {
   width: 100%;

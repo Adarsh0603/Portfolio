@@ -55,6 +55,7 @@ apps.forEach((app) => {
       }
     </div>
   </div>
+
   `;
 
   appsContainer.innerHTML += content;
