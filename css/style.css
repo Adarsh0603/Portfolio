@@ -303,7 +303,7 @@ strong {
   margin: 16px;
   height: 300px;
   /*coffee color: #6f4e37 */
-  /* background: linear-gradient(to bottom right, #000000 80%, #0d0d0d 25%); */
+  background: linear-gradient(to bottom right, #000000 80%, #0d0d0d 25%);
   box-shadow: 0 4px 8px 0 rgba(19, 18, 18, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   outline-offset: 0px;
@@ -361,7 +361,7 @@ strong {
   flex: 50%;
 }
 .workimage {
-  background-color: #1e1e1e;
+  background-color: #fff;
   text-align: center;
   flex: 50%;
   padding: 80px 0px;
@@ -370,7 +370,7 @@ strong {
   width: 40%;
 }
 #wgameimg {
-  width: 80%;
+  width: 100%;
 }
 #wtitle {
   display: block;
@@ -424,79 +424,6 @@ hr {
   color: #c0a062;
 }
 /* --------------------------------------------------------------- */
-
-#showgames h1 {
-  font-size: 60px;
-  margin-left: 60px;
-
-  font-family: showcaseFont;
-}
-#showapps h1 {
-  font-size: 60px;
-  margin-left: 60px;
-
-  font-family: showcaseFont;
-}
-#showgames {
-  background-position: center;
-  background-size: cover;
-
-  animation: fadeIn 3s;
-  background-attachment: fixed;
-  padding: 20px;
-  color: white;
-  background-color: #161616;
-}
-#showapps {
-  background-position: center;
-  background-size: cover;
-
-  animation: fadeIn 3s;
-  background-attachment: fixed;
-  padding: 20px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  background-color: #161616;
-}
-
-#gamedetail img {
-  width: 25%;
-  margin-left: 200px;
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#showapps img {
-  width: 20%;
-  margin-left: 200px;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-}
-
-#gamedetail p {
-  width: 650px;
-}
-
-#gamedetail a {
-  text-decoration: none;
-  color: #e6cf78;
-}
-
-#gamedetail .gamecontent {
-  float: left;
-
-  font-family: poppins;
-  text-align: left;
-  font-size: 18px;
-}
-
-.project {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  min-height: 100px;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding: 20px;
-  background: #161616;
-}
 
 /*-------------------------------ABOUT ME------------------
 -----------------------------------------------------------*/
@@ -576,7 +503,7 @@ footer {
   text-align: center;
   color: #fff;
   background-color: #161616;
-  height: 100vh;
+  height: 300px;
   position: relative;
 }
 
@@ -629,6 +556,11 @@ footer {
     height: 180px;
   }
 
+  .pbicon {
+    font-size: 1rem;
+    color: #c0a062;
+  }
+
   /* ------------------------------ */
 
   /* -----------------MQWORKBLOCK---------------
@@ -636,24 +568,24 @@ footer {
 
   .workblock {
     flex-direction: column-reverse;
-    margin: 40px 20px 20px 20px;
+    margin: 40px 10px 20px 10px;
   }
   .workdetails {
-    padding: 30px;
+    padding: 20px 20px;
   }
   .workimage {
-    padding: 30px 10px;
+    padding: 0px 0px;
   }
   .workimage img {
     width: 40%;
   }
 
   #wtitle {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 20px;
   }
   #wdescription {
-    font-size: 16px;
+    font-size: 12px;
     padding-right: 0px;
   }
   hr {
@@ -661,14 +593,17 @@ footer {
     margin-top: 2%;
   }
   #wicons {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   #wicons i {
-    margin-right: 20px;
+    margin-right: 10px;
+  }
+  #used {
+    font-size: 10px;
   }
   #wstackused {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   /* --------------------------------------------------------------- */
@@ -724,40 +659,7 @@ footer {
     margin-left: 60px;
     margin-bottom: -20px;
   }
-  #showapps h1 {
-    font-size: 30px;
-    text-align: center;
-    margin-left: 0px;
-    font-family: showcaseFont;
-  }
-  .project {
-    background: none;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-  }
 
-  #gamedetail p {
-    float: none;
-    width: 60%;
-    margin-left: 60px;
-    padding-bottom: 0px;
-    text-align: left;
-  }
-  #gamedetail a {
-    text-align: center;
-  }
-
-  #gamedetail img {
-    width: 100%;
-    margin-left: 0px;
-    animation: bounceInLeft 2s;
-  }
-
-  #showapps img {
-    width: 90%;
-    margin-left: 0px;
-  }
   #aboutme p {
     margin-left: 0px;
     color: white;
@@ -787,13 +689,7 @@ footer {
     font-size: 20px;
     background-color: #16161600;
   }
-  #showgames {
-    display: inline-block;
-  }
 
-  #showapps {
-    display: inline-block;
-  }
   #education {
     margin: 0px;
   }

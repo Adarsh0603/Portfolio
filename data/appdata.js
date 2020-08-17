@@ -25,14 +25,13 @@ const apps = [
 
   {
     title: "notebee",
-    description:
-      "Search from millions of free and paid books and find your next great \
-    book to read... Find your book from various categories ...",
+    description: "A simple note taking app.<br>\
+      With label sorting.",
     stack: "Flutter | Dart | SQL",
     images: [
       "./projects/notebee.png",
       "./projects/notebee2.png",
-      "./projects/notebee1.png",
+      "./projects/notebee.png",
     ],
     actions: [
       {
@@ -50,19 +49,18 @@ const apps = [
   {
     title: "CourseCup",
     description:
-      "Search from millions of free and paid books and find your next great \
-    book to read... Find your book from various categories ...",
-    stack: "Flutter | Google Books api | SQL",
+      "Find a course that suits your needs from over 2100 free courses available on top online course providers Udacity, Coursera and edx .",
+    stack: "Flutter | Dart | Python | Firebase",
     images: ["./projects/coursecup.png"],
     actions: [
       {
         icon: "fab fa-google-play",
         link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
+          "https://play.google.com/store/apps/details?id=com.adarshverma.courselister&hl=en",
       },
       {
         icon: "fab fa-github",
-        link: "https://github.com/Adarsh0603/bookjungle",
+        link: "https://github.com/Adarsh0603/CourseCup",
       },
     ],
   },
@@ -99,7 +97,7 @@ const apps = [
       {
         icon: "fab fa-google-play",
         link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.dictionaryapp&hl=en",
+          "https://play.google.com/store/apps/details?id=com.adarshverma.nadtoolkit&hl=en",
       },
       {
         icon: "fab fa-github",
