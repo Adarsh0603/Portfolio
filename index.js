@@ -7,17 +7,8 @@ blockProjects.forEach((result, idx) => {
   const content = `
   <div class="column">
   <a class="pblink" href=${result.url} target="_blank">
-  <div class="projectblock" >
-    <div class="projectcontent">
-      <h1 class="pbtitle">${result.title}</h1>
-      <hr style="margin: 0px; height:1px; width:40  %"/>
-      <br>
-      <span class="pbicon">
-
-          <i class="fab fa-google-play "></i>
-      
-      </span>
-    </div>
+  <div class="projectblock">    
+  <img src="${result.image}" width="70%"/>
   </div>
   </a>
 </div>

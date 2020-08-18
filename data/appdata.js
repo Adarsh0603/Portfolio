@@ -134,7 +134,7 @@ const apps = [
     images: ["./projects/wa.png"],
     actions: [
       {
-        icon: "fab fa-google-drive",
+        icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.refractionstudios.weightconverter&hl=en",
       },
