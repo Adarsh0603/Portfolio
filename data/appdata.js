@@ -1,5 +1,23 @@
 const apps = [
   {
+    title: "fireblogs",
+    description:
+      "A cloud based blogging app made with Flutter and Firebase REST API.\
+      \nCreate your own blogs and share with everyone.",
+    stack: "Flutter | Dart | Firebase",
+    images: ["./projects/fireblogsicon.png"],
+    actions: [
+      // {
+      //   icon: "fas fa-hourglass-start",
+      //   link: "#",
+      // },
+      {
+        icon: "fab fa-github",
+        link: "https://github.com/Adarsh0603/fireblogs",
+      },
+    ],
+  },
+  {
     title: "bookjungle",
     description:
       "Search from millions of free and paid books.<br>\
