@@ -2,10 +2,14 @@ const apps = [
   {
     title: "fireblogs",
     description:
-      "A cloud based blogging app made with Flutter and Firebase REST API.\
-      \nCreate your own blogs and share with everyone.",
-    stack: "Flutter | Dart | Firebase",
-    images: ["./projects/fireblogsicon.png"],
+      "A cloud-based blogging app made with Flutter and Firebase REST API.\
+      <br>Create your own blogs and share with everyone.",
+    stack: "Flutter | Dart | Firebase<br><br>Upload Pending..",
+    images: [
+      "./projects/fireblogs.png",
+      "./projects/fireblogs2.png",
+      "./projects/fireblogs3.png",
+    ],
     actions: [
       // {
       //   icon: "fas fa-hourglass-start",
