@@ -2,19 +2,20 @@ const apps = [
   {
     title: "fireblogs",
     description:
-      "A cloud-based blogging app made with Flutter and Firebase REST API.\
-      <br>Create your own blogs and share with everyone.",
-    stack: "Flutter | Dart | Firebase<br><br>Upload Pending..",
+      "A Cloud-based blogging app.\
+      <br>Easily create blogs and share with everyone.",
+    stack: "Flutter | Dart | Firebase REST API",
     images: [
       "./projects/fireblogs.png",
       "./projects/fireblogs2.png",
       "./projects/fireblogs3.png",
     ],
     actions: [
-      // {
-      //   icon: "fas fa-hourglass-start",
-      //   link: "#",
-      // },
+      {
+        icon: "fab fa-google-play",
+        link:
+          "https://play.google.com/store/apps/details?id=com.adarshverma.fireblogs&hl=en",
+      },
       {
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/fireblogs",
