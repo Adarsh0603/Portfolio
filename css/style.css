@@ -22,6 +22,9 @@
 strike {
   color: #6f4e37;
 }
+a {
+  text-decoration: none;
+}
 
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
@@ -305,7 +308,10 @@ strong {
   text-align: center;
   margin-top: 40px;
 }
-
+.btncenterdiv a {
+  text-decoration: none;
+  color: white;
+}
 /*--------------------------PROJECTBLOCKS----------------
 ---------------------------------------------------------- */
 
