@@ -4,7 +4,7 @@ const apps = [
     description:
       "A Cloud-based blogging app.\
       <br>Easily create blogs and share with everyone.",
-    stack: "Flutter | Dart | Firebase REST API",
+    stack: "Flutter | Firebase REST API",
     images: [
       "./projects/fireblogs.png",
       "./projects/fireblogs2.png",
@@ -27,7 +27,7 @@ const apps = [
     description:
       "Search from millions of free and paid books.<br>\
     With various categories and New York Times Bestsellers",
-    stack: "Flutter | Dart | Google Books API | SQL",
+    stack: "Flutter | Google Books API | SQL",
     images: [
       "./projects/bookjungle.png",
       "./projects/bookjungle2.png",
@@ -50,18 +50,18 @@ const apps = [
     description:
       "Send bulk mails easily from spreadsheets.<br>\
     Integrated with Google Sheets.",
-    stack: "Flutter | Dart | Google Sheets API | GCP |Firebase",
+    stack: "Flutter | Google Sheets API | GCP | Firebase",
     images: [
       "./projects/bulkmailer.png",
       "./projects/bulkmailer2.png",
       "./projects/bulkmailer3.png",
     ],
     actions: [
-      // {
-      //   icon: "fab fa-google-play",
-      //   link:
-      //     "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
-      // },
+      {
+        icon: "fab fa-google-play",
+        link:
+          "https://play.google.com/store/apps/details?id=com.adarshverma.bulk_mailer&hl=en_IN",
+      },
       {
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/Bulk-Mailer",
@@ -72,7 +72,7 @@ const apps = [
     title: "CourseCup",
     description:
       "Find a course that suits your needs from over 2100 free courses available on top online course providers Udacity, Coursera and edx .",
-    stack: "Flutter | Dart | Python | Firebase",
+    stack: "Flutter | Python | Firebase",
     images: [
       "./projects/coursecup.png",
       "./projects/coursecup2.png",
@@ -95,7 +95,7 @@ const apps = [
     title: "notebee",
     description: "A simple note taking app.<br>\
       With label sorting.",
-    stack: "Flutter | Dart | SQL",
+    stack: "Flutter | SQL",
     images: [
       "./projects/notebee.png",
       "./projects/notebee2.png",
@@ -119,7 +119,7 @@ const apps = [
     description:
       "Simple, sleek dictionary app.\
       Get every definition of a word with usage examples.",
-    stack: "Flutter | Dart | Owlbot API",
+    stack: "Flutter | Owlbot API",
     images: [
       "./projects/dictionary.png",
       "./projects/dictionary2.png",
@@ -188,7 +188,7 @@ const apps = [
   {
     title: "Rocks",
     description: "A rock dodging game for android.",
-    stack: "Unity | C#",
+    stack: "Unity",
     images: ["./projects/rocks.jpg"],
     isGame: true,
     actions: [
@@ -203,7 +203,7 @@ const apps = [
     title: "Flappy Bird Friends",
     description:
       "Different version of the popular flappy bird game for desktop.<br>With 2 birds mode.",
-    stack: "Unity | C#",
+    stack: "Unity",
     images: ["./projects/flappybird.png"],
     isGame: true,
     actions: [
@@ -216,7 +216,7 @@ const apps = [
   {
     title: "Jump!2",
     description: "A update to an arcade game for desktop. With 2 Players mode",
-    stack: "Unity | C#",
+    stack: "Unity",
     images: ["./projects/jump2.png"],
     isGame: true,
     actions: [
@@ -230,7 +230,7 @@ const apps = [
     title: "PinWars",
     description:
       "A replica of popular mobile game 'aa'.<br> For desktop and android.",
-    stack: "Unity | C#",
+    stack: "Unity",
     images: ["./projects/pinwars.png"],
     isGame: true,
     actions: [
