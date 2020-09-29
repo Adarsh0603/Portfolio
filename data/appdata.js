@@ -45,29 +45,29 @@ const apps = [
       },
     ],
   },
-  // {
-  //   title: "Bulk Mailer",
-  //   description:
-  //     "Send bulk mails easily.<br>\
-  //   Integrated with Google Sheets.",
-  //   stack: "Flutter | Dart | Google Sheets API | GCP |Firebase",
-  //   images: [
-  //     "./projects/bulkmailer.png",
-  //     "./projects/bulkmailer2.png",
-  //     "./projects/bulkmailer3.png",
-  //   ],
-  //   actions: [
-  //     {
-  //       icon: "fab fa-google-play",
-  //       link:
-  //         "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
-  //     },
-  //     {
-  //       icon: "fab fa-github",
-  //       link: "https://github.com/Adarsh0603/bookjungle",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Bulk Mailer",
+    description:
+      "Send bulk mails easily from spreadsheets.<br>\
+    Integrated with Google Sheets.",
+    stack: "Flutter | Dart | Google Sheets API | GCP |Firebase",
+    images: [
+      "./projects/bulkmailer.png",
+      "./projects/bulkmailer2.png",
+      "./projects/bulkmailer3.png",
+    ],
+    actions: [
+      // {
+      //   icon: "fab fa-google-play",
+      //   link:
+      //     "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
+      // },
+      {
+        icon: "fab fa-github",
+        link: "https://github.com/Adarsh0603/Bulk-Mailer",
+      },
+    ],
+  },
   {
     title: "CourseCup",
     description:
