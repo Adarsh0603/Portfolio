@@ -226,6 +226,11 @@ header a:hover {
   text-align: center;
   transition: all 0.5s ease-out;
 }
+#formButton {
+  margin: 2px 0px;
+  font-size: 12px;
+  padding: 12px 20px;
+}
 
 .btnoutline {
   background-color: #161616;
@@ -480,6 +485,22 @@ hr {
   color: #fff;
   font-family: droidr;
 }
+.contactLeft {
+  flex: 60%;
+  margin: 80px;
+}
+.contactRight {
+  flex: 40%;
+  margin: 80px;
+}
+#contactDesc {
+  margin: 0px;
+  /* text-align: center; */
+}
+#ideaForm {
+  width: 90%;
+}
+
 .about img {
   width: 70%;
 }
@@ -512,6 +533,34 @@ hr {
   text-decoration: none;
   color: #c0a062;
 }
+
+/* Idea Form */
+.formField {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: #999;
+  display: inline-block;
+  background-color: #1e1e1e;
+  border: none;
+  box-sizing: border-box;
+}
+.formField:focus {
+  outline: none;
+  background-color: #1e1e1e;
+}
+.formField:-webkit-autofill,
+.formField:-webkit-autofill:hover,
+.formField:-webkit-autofill:focus,
+.formField:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #1e1e1e inset !important;
+  -webkit-text-fill-color: #999 !important;
+}
+textarea {
+  resize: none;
+}
+/* ------------------- */
+
 /* ------------------------- */
 
 footer {
@@ -520,7 +569,7 @@ footer {
   text-align: center;
   color: #fff;
   background-color: #161616;
-  height: 200px;
+  /* height: 100px; */
   position: relative;
 }
 
@@ -658,6 +707,14 @@ footer {
     font-size: 18px;
     margin: 10px 40px;
   }
+  .contactLeft,
+  .contactRight {
+    margin: 20px;
+  }
+  #ideaForm {
+    width: 100%;
+  }
+
   .vertical {
     left: -155px;
   }

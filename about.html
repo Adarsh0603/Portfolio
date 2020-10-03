@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="./img/aboutimage.svg" />
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link
       rel="stylesheet"
@@ -23,6 +24,10 @@
   </head>
 
   <body>
+    <div id="btnscroll" title="Go to top">
+      <i class="fas fa-arrow-left"></i>
+      UP
+    </div>
     <header>
       <div class="headerinsets">
         <div id="branding">
@@ -74,14 +79,11 @@
 
       <!-- Contact -->
       <div class="about">
-        <div class="aboutleft">
+        <div class="contactRight">
           <h1 class="abouttitle">Get In Touch</h1>
-        </div>
-        <div class="aboutright">
-          <p>
-            Any App Idea? <br />
-            Feel free to contact<br />
-            <strong>E-mail</strong>.<br /><a
+          <p id="contactDesc">
+            <strong>E-mail</strong><br />
+            <a
               href="mailto:adarshverma0603@gmail.com"
               id="email"
               target="_blank"
@@ -92,9 +94,46 @@
             +91 8109297583
           </p>
         </div>
-      </div>
-    </section>
+        <div class="contactLeft">
+          <h1 class="abouttitle">Any app idea?</h1>
+          <form
+            action="https://formcarry.com/s/nTHdN1U8r"
+            method="POST"
+            id="ideaForm"
+            accept-charset="UTF-8"
+          >
+            <input
+              type="text"
+              name="firstName"
+              required
+              placeholder="Name"
+              class="formField"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+              class="formField"
+            />
 
+            <textarea
+              name="anotherInput"
+              rows="3"
+              required
+              class="formField"
+              placeholder="Message"
+            ></textarea>
+            <div style="text-align: center">
+              <button type="submit" class="btnfilled" id="formButton">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <h1 class="squig">_____</h1>
+    </section>
     <footer>
       <div class="footercontent">
         <div class="bottomDesign">
@@ -109,11 +148,8 @@
           <a href="https://www.instagram.com/adarsh0603/" target="_blank"
             ><img class="icon" src="./icons/instagram.png"
           /></a>
-          <a href="https://www.facebook.com/adarshhts.verma" target="_blank"
+          <a href="https://www.facebook.com/adarshverma0603" target="_blank"
             ><img class="icon" src="./icons/facebook.png"
-          /></a>
-          <a href="https://www.linkedin.com/in/adarshverma1010/" target="_blank"
-            ><img class="icon" src="./icons/linkedin.png"
           /></a>
         </div>
         <p class="footer-text">
@@ -122,5 +158,6 @@
         </p>
       </div>
     </footer>
+    <script src="./utils.js" type="module"></script>
   </body>
 </html>
