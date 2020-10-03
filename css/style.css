@@ -320,6 +320,10 @@ strong {
 /*--------------------------PROJECTBLOCKS----------------
 ---------------------------------------------------------- */
 
+#apps {
+  margin-bottom: 200px;
+}
+
 .heading {
   text-align: start;
   color: white;
@@ -494,7 +498,7 @@ hr {
   margin: 80px;
 }
 #contactDesc {
-  margin: 0px;
+  margin-left: 20px;
   /* text-align: center; */
 }
 #ideaForm {
@@ -634,6 +638,9 @@ footer {
   /* -----------------MQWORKBLOCK---------------
   ----------------------------------------------- */
 
+  #apps {
+    margin-bottom: 0px;
+  }
   #workhead {
     padding: 20px 0px 0px 0px;
   }
