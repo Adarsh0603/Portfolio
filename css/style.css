@@ -533,7 +533,7 @@ hr {
   transform: rotate(-90deg);
   line-height: 1;
 }
-#email {
+.customLink {
   text-decoration: none;
   color: #c0a062;
 }
