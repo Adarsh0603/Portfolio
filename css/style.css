@@ -52,6 +52,10 @@ body {
   font-weight: 100;
   font-family: poppins;
 }
+.teabr {
+  display: none;
+}
+
 .loader {
   position: fixed;
   left: 50%;
@@ -606,6 +610,10 @@ footer {
 
   /* ------------------MQGLOBAL--------------- 
 ----------------------------------------------*/
+
+  .teabr {
+    display: block;
+  }
   .squig {
     font-size: 50px;
   }
