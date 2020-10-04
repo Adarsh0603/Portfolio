@@ -55,7 +55,9 @@ body {
 .teabr {
   display: none;
 }
-
+.emoji {
+  display: inline;
+}
 .loader {
   position: fixed;
   left: 50%;
@@ -613,6 +615,9 @@ footer {
 
   .teabr {
     display: block;
+  }
+  .emoji {
+    display: none;
   }
   .squig {
     font-size: 50px;

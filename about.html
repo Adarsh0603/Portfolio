@@ -1,125 +1,170 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>About | Adarsh Verma</title>
+    <link rel="icon" type="image/png" href="./img/aboutimage.svg" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width" />
-  <title>About | Adarsh Verma</title>
-  <link rel="icon" type="image/png" href="./img/aboutimage.svg" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/style.css"
+    />
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
-</head>
+  <body>
+    <div id="btnscroll" title="Go to top">
+      <i class="fas fa-arrow-left"></i>
+      UP
+    </div>
+    <header>
+      <div class="headerinsets">
+        <div id="branding">
+          <!-- <img src="./img/av5.png" /> -->
+          <a href="index.html">
+            <h1 class="nameStyle">
+              adarsh<span class="logomatch">verma</span>
+            </h1>
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="work.html">Work</a></li>
+            <li class="current"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <div id="btnscroll" title="Go to top">
-    <i class="fas fa-arrow-left"></i>
-    UP
-  </div>
-  <header>
-    <div class="headerinsets">
-      <div id="branding">
-        <!-- <img src="./img/av5.png" /> -->
-        <a href="index.html">
-          <h1 class="nameStyle">
-            adarsh<span class="logomatch">verma</span>
+    <section id="aboutme">
+      <div>
+        <h1 id="aboutheading">
+          Hello<span class="emoji">👋</span>, I'm Adarsh!<br />Mobile App
+          Developer
+        </h1>
+      </div>
+
+      <!-- about main -->
+      <div class="about">
+        <div class="aboutleft">
+          <img src="./img/aboutimage.svg" />
+        </div>
+        <div class="aboutright">
+          <div class="vertical">FIND MORE ABOUT ME</div>
+          <p>
+            I create mobile apps, games and websites currently just for the sake
+            of learning. For me, that means that not only development, but also
+            the graphical work is part of my field of activity. The development
+            section is really important to me, because I thereby constantly
+            improve my skills and stay up-to-date with new methods and
+            technology. Moreover, it presents a good change to the creative
+            part.
+            <br />
+            <br />
+            Currently working on mobile app development with Flutter and
+            Firebase.
+          </p>
+        </div>
+      </div>
+
+      <h1 class="squig">_____</h1>
+
+      <!-- Contact -->
+      <div class="about">
+        <div class="contactRight">
+          <h1 class="abouttitle"><span class="emoji">🤝</span> Get In Touch</h1>
+          <p id="contactDesc">
+            <strong>E-mail</strong><br />
+            <a
+              href="mailto:adarshverma0603@gmail.com"
+              class="customLink"
+              target="_blank"
+            >
+              adarshverma0603@gmail.com</a
+            ><br />
+            <strong>Mobile</strong><br />
+            <a href="tel:+918109297583" class="customLink" target="_blank">
+              +91 8109297583</a
+            ><br />
+          </p>
+        </div>
+        <div class="contactLeft">
+          <h1 class="abouttitle">
+            <span class="emoji">💡</span> Any app idea?
           </h1>
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="work.html">Work</a></li>
-          <li class="current"><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+          <form
+            action="https://formcarry.com/s/nTHdN1U8r"
+            method="POST"
+            id="ideaForm"
+            accept-charset="UTF-8"
+          >
+            <input
+              type="text"
+              name="firstName"
+              required
+              placeholder="Name"
+              class="formField"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+              class="formField"
+            />
 
-  <section id="aboutme">
-    <div>
-      <h1 id="aboutheading">
-        Hello 👋 , I'm Adarsh!<br />Mobile App Developer
-      </h1>
-    </div>
-
-    <!-- about main -->
-    <div class="about">
-      <div class="aboutleft">
-        <img src="./img/aboutimage.svg" />
+            <textarea
+              name="anotherInput"
+              rows="3"
+              required
+              class="formField"
+              placeholder="Message"
+            ></textarea>
+            <div style="text-align: center">
+              <button type="submit" class="btnfilled" id="formButton">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="aboutright">
-        <div class="vertical">FIND MORE ABOUT ME</div>
-        <p>
-          I create mobile apps, games and websites currently just for the sake
-          of learning. For me, that means that not only development, but also
-          the graphical work is part of my field of activity. The development
-          section is really important to me, because I thereby constantly
-          improve my skills and stay up-to-date with new methods and
-          technology. Moreover, it presents a good change to the creative
-          part.
-          <br />
-          <br />
-          Currently working on mobile app development with Flutter and
-          Firebase.
+    </section>
+    <footer>
+      <div class="footercontent">
+        <div class="bottomDesign">
+          <a href="https://github.com/Adarsh0603" target="_blank"
+            ><img class="icon" src="./icons/github.png"
+          /></a>
+          <a
+            href="https://play.google.com/store/apps/dev?id=5240840383163881113&hl=en"
+            target="_blank"
+            ><img class="icon" src="./icons/playstore.png"
+          /></a>
+          <a href="https://www.instagram.com/adarsh0603/" target="_blank"
+            ><img class="icon" src="./icons/instagram.png"
+          /></a>
+          <a href="https://www.facebook.com/adarshverma0603" target="_blank"
+            ><img class="icon" src="./icons/facebook.png"
+          /></a>
+        </div>
+        <p class="footer-text">
+          Made with
+          <i class="fas fa-heart" style="color: crimson"> </i>
+          by Adarsh
         </p>
       </div>
-    </div>
-
-    <h1 class="squig">_____</h1>
-
-    <!-- Contact -->
-    <div class="about">
-      <div class="contactRight">
-        <h1 class="abouttitle">🤝🏽 Get In Touch</h1>
-        <p id="contactDesc">
-          <strong>E-mail</strong><br />
-          <a href="mailto:adarshverma0603@gmail.com" class="customLink" target="_blank">
-            adarshverma0603@gmail.com</a><br />
-          <strong>Mobile</strong><br />
-          <a href="tel:+918109297583" class="customLink" target="_blank">
-            +91 8109297583</a><br />
-        </p>
-      </div>
-      <div class="contactLeft">
-        <h1 class="abouttitle">💡 Any app idea?</h1>
-        <form action="https://formcarry.com/s/nTHdN1U8r" method="POST" id="ideaForm" accept-charset="UTF-8">
-          <input type="text" name="firstName" required placeholder="Name" class="formField" />
-          <input type="email" name="email" placeholder="Email" required class="formField" />
-
-          <textarea name="anotherInput" rows="3" required class="formField" placeholder="Message"></textarea>
-          <div style="text-align: center">
-            <button type="submit" class="btnfilled" id="formButton">
-              Submit
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="footercontent">
-      <div class="bottomDesign">
-        <a href="https://github.com/Adarsh0603" target="_blank"><img class="icon" src="./icons/github.png" /></a>
-        <a href="https://play.google.com/store/apps/dev?id=5240840383163881113&hl=en" target="_blank"><img class="icon"
-            src="./icons/playstore.png" /></a>
-        <a href="https://www.instagram.com/adarsh0603/" target="_blank"><img class="icon"
-            src="./icons/instagram.png" /></a>
-        <a href="https://www.facebook.com/adarshverma0603" target="_blank"><img class="icon"
-            src="./icons/facebook.png" /></a>
-      </div>
-      <p class="footer-text">
-        Made with
-        <i class="fas fa-heart" style="color: crimson"> </i>
-        by Adarsh
-      </p>
-    </div>
-  </footer>
-  <script src="./utils.js" type="module"></script>
-</body>
-
+    </footer>
+    <script src="./utils.js" type="module"></script>
+  </body>
 </html>
