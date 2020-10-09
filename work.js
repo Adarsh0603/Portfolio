@@ -12,13 +12,13 @@ apps.forEach((app) => {
   });
 
   var content = `
-  <div class="workblock">
-    <div class="workdetails">
+  <div class="workblock" >
+    <div class="workdetails"id=${app.isGame ? "game" : "app"}>
       <h1 id="wtitle">${app.title}</h1>
       <p id="wdescription">
       ${app.description}
       </p>
-      <hr />
+      <hr id=${app.isGame ? "game" : "app"}/>
       <p id="used">STACK USED</p>
       <p id="wstackused">${app.stack}</p>
       <div id="wicons">
