@@ -80,6 +80,7 @@ body {
   color: rgba(0, 0, 0, 0);
   text-decoration-color: #202020;
   text-align: center;
+  margin-bottom: 10px;
 }
 .container {
   padding: 10px 20px 10px 20px;
@@ -102,7 +103,6 @@ ul {
 .footer-text {
   font-family: poppins;
   margin-top: 0px;
-  margin-bottom: 0px;
   color: #808080;
 }
 .dark {
@@ -314,7 +314,6 @@ strong {
 
 #bottomblock {
   margin-top: 250px;
-  margin-bottom: 250px;
 }
 
 .btncenterdiv {
@@ -329,7 +328,7 @@ strong {
 ---------------------------------------------------------- */
 
 #apps {
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 
 .heading {
@@ -474,9 +473,6 @@ hr {
 
 /*-------------------------------ABOUT ME------------------
 -----------------------------------------------------------*/
-#aboutme {
-  padding: 200px 0px;
-}
 
 #aboutheading {
   animation: fadeIn 3s;
