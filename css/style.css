@@ -329,6 +329,7 @@ strong {
 
 #apps {
   /* margin-bottom: 200px; */
+  padding-top: 40vh;
 }
 
 .heading {
@@ -376,7 +377,7 @@ strong {
 ---------------------------------------------------------------------------- */
 
 #workhead {
-  padding: 200px 0px 100px 0px;
+  padding-bottom: 200px;
 }
 
 .workblock {
@@ -473,7 +474,9 @@ hr {
 
 /*-------------------------------ABOUT ME------------------
 -----------------------------------------------------------*/
-
+#aboutme {
+  padding-top: 30vh;
+}
 #aboutheading {
   animation: fadeIn 3s;
   margin-left: 200px;
@@ -659,7 +662,7 @@ footer {
   ----------------------------------------------- */
 
   #apps {
-    margin-bottom: 0px;
+    padding: 0px;
   }
   #workhead {
     padding: 20px 0px 0px 0px;
