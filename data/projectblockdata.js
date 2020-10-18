@@ -1,6 +1,6 @@
 const projectBlocksData = [
   {
-    title: "Fireblogs",
+    title: "Firevotes",
     image: "./projects/fireblogsframe.png",
     description: "",
     url:

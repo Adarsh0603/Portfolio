@@ -1,5 +1,29 @@
 const apps = [
   {
+    title: "Firevotes",
+    description:
+      "A Realtime Polling App.\
+      <br>Conduct online polls and share results easily.",
+    stack: "Flutter | Firebase Cloud Firestore",
+    images: [
+      "./projects/firevotes.png",
+      "./projects/firevotes2.png",
+      "./projects/firevotes3.png",
+      "./projects/firevotes4.png",
+    ],
+    actions: [
+      // {
+      //   icon: "fab fa-google-play",
+      //   link:
+      //     "https://play.google.com/store/apps/details?id=com.adarshverma.fireblogs&hl=en",
+      // },
+      {
+        icon: "fab fa-github",
+        link: "https://github.com/Adarsh0603/Firevote",
+      },
+    ],
+  },
+  {
     title: "fireblogs",
     description:
       "A Cloud-based blogging app.\
