@@ -11,6 +11,15 @@ apps.forEach((app) => {
     actioncontent += actiondata;
   });
 
+  var carouselContent = "";
+  app.images.forEach((image, index) => {
+    var ss = `
+    <div class="carousel-item ${index === 0 ? "active" : ""}">
+    <img src="${image}" alt="" id="wimg" />
+</div>`;
+    carouselContent += ss;
+  });
+
   var content = `
   <div class="workblock" >
     <div class="workdetails"id=${app.isGame ? "game" : "app"}>
@@ -28,10 +37,8 @@ apps.forEach((app) => {
     <div class="workimage">
    
     ${
-      app.images.length < 2
-        ? app.isGame
-          ? `<img src="${app.images[0]}" alt="" id="wgameimg"/>`
-          : `<img src="${app.images[0]}" alt="" id="wimg" />`
+      app.isGame
+        ? `<img src="${app.images[0]}" alt="" id="wgameimg"/>`
         : `
       <div
         id="carouselExampleSlidesOnly"
@@ -40,15 +47,8 @@ apps.forEach((app) => {
         data-interval="3000"
       >
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="${app.images[0]}" alt="" id="wimg" />
-          </div>
-          <div class="carousel-item">
-            <img src="${app.images[1]}" alt="" id="wimg" />
-          </div>
-          <div class="carousel-item">
-            <img src="${app.images[2]}" alt="" id="wimg" />
-          </div>
+        ${carouselContent}
+         
         </div>
       </div>
 
