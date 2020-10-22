@@ -12,11 +12,11 @@ const apps = [
       "./projects/firevotes4.png",
     ],
     actions: [
-      // {
-      //   icon: "fab fa-google-play",
-      //   link:
-      //     "https://play.google.com/store/apps/details?id=com.adarshverma.fireblogs&hl=en",
-      // },
+      {
+        icon: "fab fa-google-play",
+        link:
+          "https://play.google.com/store/apps/details?id=com.adarshverma.firevote",
+      },
       {
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/Firevote",
