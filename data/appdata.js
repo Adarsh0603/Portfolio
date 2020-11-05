@@ -13,11 +13,13 @@ const apps = [
     ],
     actions: [
       {
+        image: "playstore",
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.adarshverma.firevote",
       },
       {
+        image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/Firevote",
       },
@@ -36,11 +38,13 @@ const apps = [
     ],
     actions: [
       {
+        image: "playstore",
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.adarshverma.fireblogs&hl=en",
       },
       {
+        image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/fireblogs",
       },
@@ -59,11 +63,13 @@ const apps = [
     ],
     actions: [
       {
+        image: "playstore",
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
       },
       {
+        image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/bookjungle",
       },
@@ -82,11 +88,14 @@ const apps = [
     ],
     actions: [
       {
+        image: "playstore",
+
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.adarshverma.bulk_mailer&hl=en_IN",
       },
       {
+        image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/Bulk-Mailer",
       },
@@ -104,11 +113,13 @@ const apps = [
     ],
     actions: [
       {
+        image: "playstore",
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.adarshverma.courselister&hl=en",
       },
       {
+        image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/CourseCup",
       },
@@ -127,11 +138,14 @@ const apps = [
     ],
     actions: [
       {
+        image: "playstore",
+
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.adarshverma.notebee&hl=en",
       },
       {
+        image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/notebee",
       },
@@ -151,11 +165,14 @@ const apps = [
     ],
     actions: [
       {
+        image: "playstore",
+
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.adarshverma.dictionaryapp&hl=en",
       },
       {
+        image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/DictionaryApp",
       },
@@ -173,11 +190,14 @@ const apps = [
     ],
     actions: [
       {
+        image: "playstore",
+
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.adarshverma.nadtoolkit&hl=en",
       },
       {
+        image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/nadtoolkit",
       },
@@ -190,6 +210,7 @@ const apps = [
     images: ["./projects/nc.png", "./projects/nc2.png", "./projects/nc3.png"],
     actions: [
       {
+        image: "drive",
         icon: "fab fa-google-drive",
         link:
           "https://drive.google.com/file/d/1TDKfMqwxWHV_qr1lZVjpGXyfhbydP_di/view",
@@ -203,6 +224,7 @@ const apps = [
     images: ["./projects/wa.png"],
     actions: [
       {
+        image: "playstore",
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.refractionstudios.weightconverter&hl=en",
@@ -217,6 +239,8 @@ const apps = [
     isGame: true,
     actions: [
       {
+        image: "playstore",
+
         icon: "fab fa-google-play",
         link:
           "https://play.google.com/store/apps/details?id=com.refractionstudios.rocks&hl=en_IN",
@@ -232,6 +256,7 @@ const apps = [
     isGame: true,
     actions: [
       {
+        image: "desktop",
         icon: "fas fa-desktop",
         link: "https://gamejolt.com/games/flappybird/332714",
       },
@@ -245,6 +270,8 @@ const apps = [
     isGame: true,
     actions: [
       {
+        image: "desktop",
+
         icon: "fas fa-desktop",
         link: "https://gamejolt.com/games/jump2/325674",
       },
@@ -259,10 +286,13 @@ const apps = [
     isGame: true,
     actions: [
       {
+        image: "desktop",
+
         icon: "fas fa-desktop",
         link: "https://gamejolt.com/games/pinwars/334522",
       },
       {
+        image: "phone",
         icon: "fas fa-mobile",
         link:
           "https://drive.google.com/file/d/1YBrqvnEUxPvDZqMOt6vu4zscPSxjCZ67/view?usp=sharing",

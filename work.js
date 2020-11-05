@@ -1,11 +1,15 @@
 import apps from "./data/appdata.js";
+
+var useImagesAsIcons = true;
+
 const appsContainer = document.getElementById("apps");
 apps.forEach((app) => {
   var actioncontent = "";
   app.actions.forEach((action) => {
     var actiondata = `
-  <a href="${action.link}"target="_blank">
-  <i class="${action.icon}"></i></a>
+  <a href="${action.link}"target="_blank" class="actionIcon">
+  ${getActionData(action)}
+ </a>
   `;
 
     actioncontent += actiondata;
@@ -61,3 +65,10 @@ apps.forEach((app) => {
 
   appsContainer.innerHTML += content;
 });
+
+/* <i class="${action.icon}"></i> */
+function getActionData(action) {
+  return useImagesAsIcons
+    ? `<img src="./icons/actionIcons/${action.image}.png">`
+    : `<i class="${action.icon}"></i>`;
+}

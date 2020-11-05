@@ -460,15 +460,26 @@ hr {
   color: #c0a062;
   display: inline-block;
 }
-#wicons i {
+/* #wicons i {
   margin-right: 32px;
-  /* transition: 1s; */
-}
+} */
+
 #wicons i:hover {
-  color: lightblue;
+  animation: tada 1s;
 }
 #wicons a {
   color: #c0a062;
+  text-decoration: none;
+}
+.actionIcon {
+  margin: 0px 10px;
+}
+.actionIcon img {
+  width: 8%;
+}
+
+.actionIcon img:hover {
+  animation: tada 1s;
 }
 /* --------------------------------------------------------------- */
 
@@ -704,13 +715,13 @@ footer {
   #wicons {
     font-size: 28px;
   }
-  #wicons i:hover {
-    color: #c0a062;
-  }
 
   #wicons i {
     margin-right: 10px;
   }
+  /* .actionIcon {
+    margin: 0px 10px;
+  } */
 
   #wstackused {
     font-size: 16px;
