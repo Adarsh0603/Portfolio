@@ -1,5 +1,29 @@
 const apps = [
   {
+    title: "Chartify",
+    description: "Easily create and download customised charts in seconds.",
+    stack: "Angular",
+    isLs: true,
+    images: [
+      "./projects/chartify.png",
+      "./projects/chartify1.png",
+      "./projects/chartify2.png",
+      "./projects/chartify3.png",
+    ],
+    actions: [
+      {
+        image: "browser",
+        icon: "fas fa-external-link-square-alt",
+        link: "https://chartify.ml",
+      },
+      {
+        image: "github",
+        icon: "fab fa-github",
+        link: "https://github.com/Adarsh0603/Chartify",
+      },
+    ],
+  },
+  {
     title: "Firevotes",
     description:
       "A Realtime Polling App.\
@@ -236,7 +260,8 @@ const apps = [
     description: "A rock dodging game for android.",
     stack: "Unity",
     images: ["./projects/rocks.jpg"],
-    isGame: true,
+    isLs: true,
+
     actions: [
       {
         image: "playstore",
@@ -253,7 +278,8 @@ const apps = [
       "Different version of the popular flappy bird game for desktop.<br>With 2 birds mode.",
     stack: "Unity",
     images: ["./projects/flappybird.png"],
-    isGame: true,
+    isLs: true,
+
     actions: [
       {
         image: "desktop",
@@ -267,7 +293,8 @@ const apps = [
     description: "A update to an arcade game for desktop. With 2 Players mode",
     stack: "Unity",
     images: ["./projects/jump2.png"],
-    isGame: true,
+    isLs: true,
+
     actions: [
       {
         image: "desktop",
@@ -283,7 +310,8 @@ const apps = [
       "A replica of popular mobile game 'aa'.<br> For desktop and android.",
     stack: "Unity",
     images: ["./projects/pinwars.png"],
-    isGame: true,
+    isLs: true,
+
     actions: [
       {
         image: "desktop",

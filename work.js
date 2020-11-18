@@ -19,7 +19,9 @@ apps.forEach((app) => {
   app.images.forEach((image, index) => {
     var ss = `
     <div class="carousel-item ${index === 0 ? "active" : ""}">
-    <img src="${image}" alt="" id="wimg" />
+    <img src="${image}" alt="" id="wimg" class=${
+      app.isLs ? "projectImageLs" : "projectImage"
+    } />
 </div>`;
     carouselContent += ss;
   });
@@ -40,10 +42,7 @@ apps.forEach((app) => {
     </div>
     <div class="workimage">
    
-    ${
-      app.isGame
-        ? `<img src="${app.images[0]}" alt="" id="wgameimg"/>`
-        : `
+    ${`
       <div
         id="carouselExampleSlidesOnly"
         class="carousel slide"
@@ -56,8 +55,7 @@ apps.forEach((app) => {
         </div>
       </div>
 
-      `
-    }
+      `}
     </div>
   </div>
 
@@ -66,9 +64,11 @@ apps.forEach((app) => {
   appsContainer.innerHTML += content;
 });
 
-/* <i class="${action.icon}"></i> */
 function getActionData(action) {
   return useImagesAsIcons
     ? `<img src="./icons/actionIcons/${action.image}.png">`
     : `<i class="${action.icon}"></i>`;
 }
+//  app.isGame
+//? `<img src="${app.images[0]}" alt="" id="wgameimg"/>`
+//:
