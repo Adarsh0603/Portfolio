@@ -24,6 +24,34 @@ const apps = [
     ],
   },
   {
+    title: "Gym Admin Panel",
+    description: "Complete Gym and Ecommerce Site Management (Frontend)",
+    stack: "Angular",
+    isLs: true,
+    images: [
+      "./projects/h2oa1.webp",
+      "./projects/h2oa2.webp",
+      "./projects/h2oa3.webp",
+      "./projects/h2oa4.webp",
+      "./projects/h2oa5.webp",
+      "./projects/h2oa6.webp",
+      "./projects/h2oa7.webp",
+      "./projects/h2oa8.webp",
+    ],
+    actions: [
+      // {
+      //   image: "browser",
+      //   icon: "fas fa-external-link-square-alt",
+      //   link: "https://chartify.ml",
+      // },
+      // {
+      //   image: "github",
+      //   icon: "fab fa-github",
+      //   link: "https://github.com/Adarsh0603/Chartify",
+      // },
+    ],
+  },
+  {
     title: "Firevotes",
     description:
       "A Realtime Polling App.\
