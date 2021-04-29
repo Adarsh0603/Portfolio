@@ -1,5 +1,22 @@
 const apps = [
   {
+    title: "Two Bullets",
+    description:
+      "A Fast-paced arcade game. Shoot, catch and re-shoot only 2 bullets to get as many kills as possible.",
+    stack: "Unity",
+    images: ["./projects/2bulletsheader.png"],
+    isLs: true,
+
+    actions: [
+      {
+        image: "desktop",
+
+        icon: "fas fa-desktop",
+        link: "https://adarshverma.itch.io/two-bullets",
+      },
+    ],
+  },
+  {
     title: "Chartify",
     description: "Easily create and download customised charts in seconds.",
     stack: "Angular",
