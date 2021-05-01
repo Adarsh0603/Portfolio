@@ -4,12 +4,7 @@ const apps = [
     description:
       "A Fast-paced arcade game. Shoot, catch and re-shoot only 2 bullets to get as many kills as possible.",
     stack: "Unity",
-    images: [
-      "./projects/2b.png",
-      "./projects/2b1.png",
-      "./projects/2b2.png",
-      "./projects/2b3.png",
-    ],
+    images: ["./projects/2b1.png", "./projects/2b2.png", "./projects/2b3.png"],
     isLs: true,
 
     actions: [
@@ -22,7 +17,7 @@ const apps = [
       {
         image: "github",
         icon: "fab fa-github",
-        link: "https://github.com/Adarsh0603/TwoBullets",
+        link: "https://github.com/Adarsh0603/Two-Bullets",
       },
     ],
   },
