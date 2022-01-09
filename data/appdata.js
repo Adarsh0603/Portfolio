@@ -1,27 +1,5 @@
 const apps = [
   {
-    title: "Two Bullets",
-    description:
-      "A Fast-paced arcade game. Shoot, catch and re-shoot only 2 bullets to get as many kills as possible.",
-    stack: "Unity",
-    images: ["./projects/2b1.png", "./projects/2b2.png", "./projects/2b3.png"],
-    isLs: true,
-
-    actions: [
-      {
-        image: "desktop",
-
-        icon: "fas fa-desktop",
-        link: "https://adarshverma.itch.io/two-bullets",
-      },
-      {
-        image: "github",
-        icon: "fab fa-github",
-        link: "https://github.com/Adarsh0603/Two-Bullets",
-      },
-    ],
-  },
-  {
     title: "Chartify",
     description: "Easily create and download customised charts in seconds.",
     stack: "Angular",
@@ -45,6 +23,55 @@ const apps = [
       },
     ],
   },
+  {
+    title: "Monster Castle",
+    description: "Control Spikes. Hit Monsters. Protect Castle Chests.",
+    stack: "Unity",
+    images: [
+      "./projects/monstercastle.webp",
+      "./projects/monstercastle1.webp",
+      "./projects/monstercastle2.webp",
+    ],
+    isLs: true,
+
+    actions: [
+      {
+        image: "desktop",
+
+        icon: "fas fa-desktop",
+        link: "https://adarshverma.itch.io/monster-castle",
+      },
+      // {
+      //   image: "github",
+      //   icon: "fab fa-github",
+      //   link: "https://github.com/Adarsh0603/Two-Bullets",
+      // },
+    ],
+  },
+
+  {
+    title: "Two Bullets",
+    description:
+      "A Fast-paced arcade game. Shoot, catch and re-shoot only 2 bullets to get as many kills as possible.",
+    stack: "Unity",
+    images: ["./projects/2b1.png", "./projects/2b2.png", "./projects/2b3.png"],
+    isLs: true,
+
+    actions: [
+      {
+        image: "desktop",
+
+        icon: "fas fa-desktop",
+        link: "https://adarshverma.itch.io/two-bullets",
+      },
+      {
+        image: "github",
+        icon: "fab fa-github",
+        link: "https://github.com/Adarsh0603/Two-Bullets",
+      },
+    ],
+  },
+
   {
     title: "Gym Admin Panel",
     description: "Complete Gym and Ecommerce Site Management (Frontend)",
@@ -89,8 +116,7 @@ const apps = [
       {
         image: "playstore",
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.firevote",
+        link: "https://play.google.com/store/apps/details?id=com.adarshverma.firevote",
       },
       {
         image: "github",
@@ -114,8 +140,7 @@ const apps = [
       {
         image: "playstore",
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.fireblogs&hl=en",
+        link: "https://play.google.com/store/apps/details?id=com.adarshverma.fireblogs&hl=en",
       },
       {
         image: "github",
@@ -139,8 +164,7 @@ const apps = [
       {
         image: "playstore",
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
+        link: "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
       },
       {
         image: "github",
@@ -165,8 +189,7 @@ const apps = [
         image: "playstore",
 
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.bulk_mailer&hl=en_IN",
+        link: "https://play.google.com/store/apps/details?id=com.adarshverma.bulk_mailer&hl=en_IN",
       },
       {
         image: "github",
@@ -189,8 +212,7 @@ const apps = [
       {
         image: "playstore",
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.courselister&hl=en",
+        link: "https://play.google.com/store/apps/details?id=com.adarshverma.courselister&hl=en",
       },
       {
         image: "github",
@@ -215,8 +237,7 @@ const apps = [
         image: "playstore",
 
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.notebee&hl=en",
+        link: "https://play.google.com/store/apps/details?id=com.adarshverma.notebee&hl=en",
       },
       {
         image: "github",
@@ -242,8 +263,7 @@ const apps = [
         image: "playstore",
 
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.dictionaryapp&hl=en",
+        link: "https://play.google.com/store/apps/details?id=com.adarshverma.dictionaryapp&hl=en",
       },
       {
         image: "github",
@@ -267,8 +287,7 @@ const apps = [
         image: "playstore",
 
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.adarshverma.nadtoolkit&hl=en",
+        link: "https://play.google.com/store/apps/details?id=com.adarshverma.nadtoolkit&hl=en",
       },
       {
         image: "github",
@@ -286,8 +305,7 @@ const apps = [
       {
         image: "drive",
         icon: "fab fa-google-drive",
-        link:
-          "https://drive.google.com/file/d/1TDKfMqwxWHV_qr1lZVjpGXyfhbydP_di/view",
+        link: "https://drive.google.com/file/d/1TDKfMqwxWHV_qr1lZVjpGXyfhbydP_di/view",
       },
     ],
   },
@@ -300,8 +318,7 @@ const apps = [
       {
         image: "playstore",
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.refractionstudios.weightconverter&hl=en",
+        link: "https://play.google.com/store/apps/details?id=com.refractionstudios.weightconverter&hl=en",
       },
     ],
   },
@@ -317,8 +334,7 @@ const apps = [
         image: "playstore",
 
         icon: "fab fa-google-play",
-        link:
-          "https://play.google.com/store/apps/details?id=com.refractionstudios.rocks&hl=en_IN",
+        link: "https://play.google.com/store/apps/details?id=com.refractionstudios.rocks&hl=en_IN",
       },
     ],
   },
@@ -372,8 +388,7 @@ const apps = [
       {
         image: "phone",
         icon: "fas fa-mobile",
-        link:
-          "https://drive.google.com/file/d/1YBrqvnEUxPvDZqMOt6vu4zscPSxjCZ67/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1YBrqvnEUxPvDZqMOt6vu4zscPSxjCZ67/view?usp=sharing",
       },
     ],
   },
