@@ -1,5 +1,62 @@
 const apps = [
   {
+    title: "RedBrick CSS",
+    description: "A Customizable CSS Framework",
+    stack: "SCSS | JS | DOCASAURUS (For Documentation Site)",
+    isLs: true,
+    images: ["./projects/redbrick.webp"],
+    actions: [
+      {
+        image: "browser",
+        icon: "fas fa-external-link-square-alt",
+        link: "https://redbrick.netlify.app",
+      },
+      {
+        image: "github",
+        icon: "fab fa-github",
+        link: "https://github.com/Adarsh0603/redbrick",
+      },
+    ],
+  },
+  {
+    title: "Law Mediation Web Portal",
+    description:
+      "Full Stack Web Application for Sujhav Company. Complete Administration of Lawyers, Cases and Case related entities.",
+    stack: "Angular | Nest JS | MYSql | Docker | AWS S3",
+    isLs: true,
+    images: [
+      "./projects/sujhav/1.webp",
+      "./projects/sujhav/2.webp",
+      "./projects/sujhav/3.webp",
+      "./projects/sujhav/4.webp",
+      "./projects/sujhav/5.webp",
+      "./projects/sujhav/6.webp",
+      "./projects/sujhav/7.webp",
+      "./projects/sujhav/8.webp",
+      "./projects/sujhav/9.webp",
+      "./projects/sujhav/10.webp",
+      "./projects/sujhav/11.webp",
+      "./projects/sujhav/12.webp",
+      "./projects/sujhav/13.webp",
+      "./projects/sujhav/14.webp",
+      "./projects/sujhav/15.webp",
+      "./projects/sujhav/16.webp",
+      "./projects/sujhav/17.webp",
+    ],
+    actions: [
+      // {
+      //   image: "browser",
+      //   icon: "fas fa-external-link-square-alt",
+      //   link: "https://chartify.ml",
+      // },
+      // {
+      //   image: "github",
+      //   icon: "fab fa-github",
+      //   link: "https://github.com/Adarsh0603/Chartify",
+      // },
+    ],
+  },
+  {
     title: "Chartify",
     description: "Easily create and download customised charts in seconds.",
     stack: "Angular",
@@ -20,54 +77,6 @@ const apps = [
         image: "github",
         icon: "fab fa-github",
         link: "https://github.com/Adarsh0603/Chartify",
-      },
-    ],
-  },
-  {
-    title: "Monster Castle",
-    description: "Control Spikes. Hit Monsters. Protect Castle Chests.",
-    stack: "Unity",
-    images: [
-      "./projects/monstercastle.webp",
-      "./projects/monstercastle1.webp",
-      "./projects/monstercastle2.webp",
-    ],
-    isLs: true,
-
-    actions: [
-      {
-        image: "desktop",
-
-        icon: "fas fa-desktop",
-        link: "https://adarshverma.itch.io/monster-castle",
-      },
-      // {
-      //   image: "github",
-      //   icon: "fab fa-github",
-      //   link: "https://github.com/Adarsh0603/Two-Bullets",
-      // },
-    ],
-  },
-
-  {
-    title: "Two Bullets",
-    description:
-      "A Fast-paced arcade game. Shoot, catch and re-shoot only 2 bullets to get as many kills as possible.",
-    stack: "Unity",
-    images: ["./projects/2b1.png", "./projects/2b2.png", "./projects/2b3.png"],
-    isLs: true,
-
-    actions: [
-      {
-        image: "desktop",
-
-        icon: "fas fa-desktop",
-        link: "https://adarshverma.itch.io/two-bullets",
-      },
-      {
-        image: "github",
-        icon: "fab fa-github",
-        link: "https://github.com/Adarsh0603/Two-Bullets",
       },
     ],
   },
@@ -322,6 +331,7 @@ const apps = [
       },
     ],
   },
+
   {
     title: "Rocks",
     description: "A rock dodging game for android.",
@@ -335,6 +345,54 @@ const apps = [
 
         icon: "fab fa-google-play",
         link: "https://play.google.com/store/apps/details?id=com.refractionstudios.rocks&hl=en_IN",
+      },
+    ],
+  },
+  {
+    title: "Monster Castle",
+    description: "Control Spikes. Hit Monsters. Protect Castle Chests.",
+    stack: "Unity",
+    images: [
+      "./projects/monstercastle.webp",
+      "./projects/monstercastle1.webp",
+      "./projects/monstercastle2.webp",
+    ],
+    isLs: true,
+
+    actions: [
+      {
+        image: "desktop",
+
+        icon: "fas fa-desktop",
+        link: "https://adarshverma.itch.io/monster-castle",
+      },
+      // {
+      //   image: "github",
+      //   icon: "fab fa-github",
+      //   link: "https://github.com/Adarsh0603/Two-Bullets",
+      // },
+    ],
+  },
+
+  {
+    title: "Two Bullets",
+    description:
+      "A Fast-paced arcade game. Shoot, catch and re-shoot only 2 bullets to get as many kills as possible.",
+    stack: "Unity",
+    images: ["./projects/2b1.png", "./projects/2b2.png", "./projects/2b3.png"],
+    isLs: true,
+
+    actions: [
+      {
+        image: "desktop",
+
+        icon: "fas fa-desktop",
+        link: "https://adarshverma.itch.io/two-bullets",
+      },
+      {
+        image: "github",
+        icon: "fab fa-github",
+        link: "https://github.com/Adarsh0603/Two-Bullets",
       },
     ],
   },
