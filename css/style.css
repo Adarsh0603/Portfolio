@@ -569,22 +569,67 @@ hr {
   color: #c0a062;
 }
 
-/* Tech Icons */
-.tech {
-  margin-top: 100px;
+/* SkillIcons */
+.skillicons{
+  margin-top: 80px;
+  display:flex;
   width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+
 }
-.tech div {
+ .iconholder{
+display: grid;
+width:80%;
+row-gap: 80px;
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+justify-content: center;
+justify-items: center;
+
+
+ }
+.skillicons img{
+  width:120px;
+  height: 120px;
+  object-fit: contain;
+  transition: 0.2s ease-in;
+}
+
+.skillicons img:hover{
+  cursor: pointer;
+  transform:scale(1.2);
+
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #0b0b0b;
+  color: white;
   text-align: center;
-}
-.tech h1 {
-  /* color: white; */
-  color: #999;
+  padding: 5px 0;
+  border-radius: 6px;
   font-family: poppins;
-  font-weight: 100;
+  font-size: 18px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  top: 105%;
+  left: 50%;
+  margin-left: -60px; 
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 /* Idea Form */
 .formField {
@@ -651,7 +696,7 @@ footer {
     font-size: 30px;
     padding-left: 0px;
   }
-
+ 
   /* ------------------MQGLOBAL--------------- 
 ----------------------------------------------*/
 
@@ -785,6 +830,7 @@ footer {
   .tech div {
     margin-bottom: 40px;
   }
+
 
   #ideaForm {
     width: 100%;
