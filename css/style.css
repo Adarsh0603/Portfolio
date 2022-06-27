@@ -650,6 +650,7 @@ justify-items: center;
 .formField:-webkit-autofill:hover,
 .formField:-webkit-autofill:focus,
 .formField:-webkit-autofill:active {
+  box-shadow:  0 0 0 30px #1e1e1e inset !important;
   -webkit-box-shadow: 0 0 0 30px #1e1e1e inset !important;
   -webkit-text-fill-color: #999 !important;
 }
