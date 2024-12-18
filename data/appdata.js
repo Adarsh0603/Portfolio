@@ -122,10 +122,15 @@ const apps = [
       "./projects/firevotes4.png",
     ],
     actions: [
+      // {
+      //   image: "playstore",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.adarshverma.firevote",
+      // },
       {
-        image: "playstore",
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.adarshverma.firevote",
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1jrQkCmUleeQR3qT2sooRIjmSXHwcqLaZ/view?usp=drive_link",
       },
       {
         image: "github",
@@ -146,10 +151,15 @@ const apps = [
       "./projects/fireblogs3.png",
     ],
     actions: [
+      // {
+      //   image: "playstore",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.adarshverma.fireblogs&hl=en",
+      // },
       {
-        image: "playstore",
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.adarshverma.fireblogs&hl=en",
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1z0MJoLUKkjsk8OS6S9aH-BwZHy8jBTO_/view?usp=drive_link",
       },
       {
         image: "github",
@@ -170,10 +180,15 @@ const apps = [
       "./projects/bookjungle3.png",
     ],
     actions: [
+      // {
+      //   image: "playstore",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
+      // },
       {
-        image: "playstore",
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.adarshverma.bookjungle&hl=en",
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1OE8983Hwb8FanSkiuS8WJuRo5iLCQRTE/view?usp=drive_link",
       },
       {
         image: "github",
@@ -194,11 +209,15 @@ const apps = [
       "./projects/bulkmailer3.png",
     ],
     actions: [
+      // {
+      //   image: "playstore",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.adarshverma.bulk_mailer&hl=en_IN",
+      // },
       {
-        image: "playstore",
-
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.adarshverma.bulk_mailer&hl=en_IN",
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1rUdojH2nHuf-gBT-mclm3QVfpCDuEWsZ/view?usp=drive_link",
       },
       {
         image: "github",
@@ -218,10 +237,16 @@ const apps = [
       "./projects/coursecup3.png",
     ],
     actions: [
+      // {
+      //   image: "playstore",
+      //   icon: "fab fa-google-play",
+      //   // link: "https://play.google.com/store/apps/details?id=com.adarshverma.courselister&hl=en",
+      //   link: "https://drive.google.com/file/d/1TeX9NmXhcEsBYdC0DTQ1n3dPG7CbYQgL/view?usp=drive_link",
+      // },
       {
-        image: "playstore",
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.adarshverma.courselister&hl=en",
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1TeX9NmXhcEsBYdC0DTQ1n3dPG7CbYQgL/view?usp=drive_link",
       },
       {
         image: "github",
@@ -233,7 +258,8 @@ const apps = [
 
   {
     title: "notebee",
-    description: "A simple note taking app.<br>\
+    description:
+      "A simple note taking app.<br>\
       With label sorting.",
     stack: "Flutter | SQL",
     images: [
@@ -242,11 +268,16 @@ const apps = [
       "./projects/notebee3.png",
     ],
     actions: [
-      {
-        image: "playstore",
+      // {
+      //   image: "playstore",
 
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.adarshverma.notebee&hl=en",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.adarshverma.notebee&hl=en",
+      // },
+      {
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1Rg18DeORZeb8yFeD4ejQZkRTxKgyR6e4/view?usp=drive_link",
       },
       {
         image: "github",
@@ -268,11 +299,17 @@ const apps = [
       "./projects/dictionary.png",
     ],
     actions: [
-      {
-        image: "playstore",
+      // {
+      //   image: "playstore",
 
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.adarshverma.dictionaryapp&hl=en",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.adarshverma.dictionaryapp&hl=en",
+      // },
+
+      {
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1H1x3iP14AN6kaJ0Ki7IzsBMSDRHyqqhI/view?usp=drive_link",
       },
       {
         image: "github",
@@ -292,11 +329,16 @@ const apps = [
       "./projects/nad3.png",
     ],
     actions: [
-      {
-        image: "playstore",
+      // {
+      //   image: "playstore",
 
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.adarshverma.nadtoolkit&hl=en",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.adarshverma.nadtoolkit&hl=en",
+      // },
+      {
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1GEBRVySg5mWnjUt_jOI8w7mj6dzJmcJC/view?usp=drive_link",
       },
       {
         image: "github",
@@ -324,10 +366,15 @@ const apps = [
     stack: "Android Native | Java",
     images: ["./projects/wa.png"],
     actions: [
+      // {
+      //   image: "playstore",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.refractionstudios.weightconverter&hl=en",
+      // },
       {
-        image: "playstore",
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.refractionstudios.weightconverter&hl=en",
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/18uyRXSuPK6CB_YgyRw4ecbisEhjULmKB/view?usp=drive_link",
       },
     ],
   },
@@ -340,11 +387,16 @@ const apps = [
     isLs: true,
 
     actions: [
-      {
-        image: "playstore",
+      // {
+      //   image: "playstore",
 
-        icon: "fab fa-google-play",
-        link: "https://play.google.com/store/apps/details?id=com.refractionstudios.rocks&hl=en_IN",
+      //   icon: "fab fa-google-play",
+      //   link: "https://play.google.com/store/apps/details?id=com.refractionstudios.rocks&hl=en_IN",
+      // },
+      {
+        image: "drive",
+        icon: "fab fa-google-drive",
+        link: "https://drive.google.com/file/d/1yslbxN9wEXfhVqoWYyMFzvMTMRp6DTZP/view?usp=drive_link",
       },
     ],
   },

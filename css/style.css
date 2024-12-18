@@ -414,8 +414,14 @@ strong {
   margin-top: 4%;
   margin-bottom: 5%;
 }
+
+/* .carousel-inner > .carousel-item > img {
+  width: 640px;
+  height: 360px;
+} */
 .projectImage {
-  width: 40%;
+  width: 400px;
+  height: 800px;
 }
 .projectImageLs {
   width: 100%;
@@ -570,41 +576,36 @@ hr {
 }
 
 /* SkillIcons */
-.skillicons{
+.skillicons {
   margin-top: 80px;
-  display:flex;
+  display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-
 }
- .iconholder{
-display: grid;
-width:80%;
-row-gap: 80px;
-grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-justify-content: center;
-justify-items: center;
-
-
- }
-.skillicons img{
-  width:120px;
+.iconholder {
+  display: grid;
+  width: 80%;
+  row-gap: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  justify-content: center;
+  justify-items: center;
+}
+.skillicons img {
+  width: 120px;
   height: 120px;
   object-fit: contain;
   transition: 0.2s ease-in;
 }
 
-.skillicons img:hover{
+.skillicons img:hover {
   cursor: pointer;
-  transform:scale(1.2);
-
+  transform: scale(1.2);
 }
 /* Tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
@@ -617,14 +618,14 @@ justify-items: center;
   border-radius: 6px;
   font-family: poppins;
   font-size: 18px;
- 
+
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
   width: 120px;
   top: 105%;
   left: 50%;
-  margin-left: -60px; 
+  margin-left: -60px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -650,7 +651,7 @@ justify-items: center;
 .formField:-webkit-autofill:hover,
 .formField:-webkit-autofill:focus,
 .formField:-webkit-autofill:active {
-  box-shadow:  0 0 0 30px #1e1e1e inset !important;
+  box-shadow: 0 0 0 30px #1e1e1e inset !important;
   -webkit-box-shadow: 0 0 0 30px #1e1e1e inset !important;
   -webkit-text-fill-color: #999 !important;
 }
@@ -697,7 +698,7 @@ footer {
     font-size: 30px;
     padding-left: 0px;
   }
- 
+
   /* ------------------MQGLOBAL--------------- 
 ----------------------------------------------*/
 
@@ -831,7 +832,6 @@ footer {
   .tech div {
     margin-bottom: 40px;
   }
-
 
   #ideaForm {
     width: 100%;
