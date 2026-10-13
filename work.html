@@ -1,43 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="theme-color" content="#161616" />
-
-    <title>Work | Adarsh Verma</title>
-    <link rel="icon" type="image/png" href="./img/aboutimage.svg" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- 
-    <script type="text/javascript">
-      $(window).on("load", function () {
-        $(".overlay").fadeOut("slow");
-      });
-    </script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#131313" />
+    <title>Work | Adarsh Verma</title>
+    <link rel="icon" type="image/svg+xml" href="./img/aboutimage.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
     />
-
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="./css/style.css"
-    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <div id="btnscroll" title="Go to top">
-      <i class="fas fa-arrow-left"></i>
-      UP
-    </div>
+    <div id="btnscroll" title="Go to top">&uarr; UP</div>
     <header>
       <div class="headerinsets">
         <div id="branding">
@@ -57,35 +36,28 @@
     </header>
 
     <section id="apps">
-      <!-- <div class="overlay">
-        <div class="spinner">
-          <div class="double-bounce1"></div>
-          <div class="double-bounce2"></div>
-        </div>
-      </div> -->
       <div id="workhead">
         <h1 id="aboutheading">A small collection<br />of my work.</h1>
       </div>
+      <!-- project blocks are filled by work.js -->
     </section>
     <h1 class="squig">_____</h1>
     <footer>
       <div class="footercontent">
         <div class="bottomDesign">
-          <!-- <a
-            href="https://play.google.com/store/apps/dev?id=5240840383163881113&hl=en"
-            target="_blank"
-            ><img class="icon" src="./icons/playstore.png"
-          /></a> -->
           <a
             href="https://www.linkedin.com/in/adarsh-verma-5b308322b/"
             target="_blank"
-            ><img
-              class="icon"
-              style="transform: scale(1.2)"
-              src="./icons/linkedin.png"
+            rel="noopener"
+            aria-label="LinkedIn"
+            ><img class="icon" src="./icons/linkedin.png" alt="LinkedIn"
           /></a>
-          <a href="https://github.com/Adarsh0603" target="_blank"
-            ><img class="icon" src="./icons/github.png"
+          <a
+            href="https://github.com/Adarsh0603"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            ><img class="icon" src="./icons/github.png" alt="GitHub"
           /></a>
         </div>
         <p class="footer-text">
@@ -96,19 +68,7 @@
       </div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-
     <script src="./work.js" type="module"></script>
-
     <script src="./utils.js" type="module"></script>
   </body>
 </html>

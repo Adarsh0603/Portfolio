@@ -1,0 +1,1266 @@
+@font-face {
+  font-family: showcaseFont;
+  src: url("../fonts/WorkSans-Black.otf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: noto;
+  src: url("../fonts/Noto_Serif/NotoSerif-Bold.ttf");
+}
+@font-face {
+  font-family: droid;
+  src: url("../fonts/DroidSerifBold-aMPE.ttf");
+}
+@font-face {
+  font-family: droidr;
+  src: url("../fonts/DroidSerif-Regular.ttf");
+}
+
+strike {
+  color: #6f4e37;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+
+  background-color: #161616;
+}
+.row {
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.column {
+  flex: 33%;
+}
+
+/*----------------------------------------------GLOBAL-----------------------------------------------
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------*/
+.nameStyle {
+  font-weight: 100;
+  font-family: poppins;
+}
+.teabr {
+  display: none;
+}
+.emoji {
+  display: inline;
+}
+.loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-right: 16px solid #c0a062;
+
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  z-index: 2;
+}
+
+.squig {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  margin: auto;
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0);
+  text-decoration-color: #202020;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.container {
+  padding: 10px 20px 10px 20px;
+}
+.skills {
+  margin-left: 100px;
+  margin-bottom: -20px;
+  font-family: poppins;
+}
+.newApp {
+  font-weight: bold;
+  color: #a392ff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-text {
+  font-family: poppins;
+  margin-top: 0px;
+  color: #808080;
+}
+.dark {
+  background: #35424a;
+  color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.gridview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+}
+
+/*----------------------HEADER-----------------
+------------------------------------------------*/
+header {
+  width: 100%;
+
+  background: #161616;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 70px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: droid;
+}
+
+header img {
+  margin-right: -20px;
+
+  vertical-align: middle;
+  display: inline;
+}
+
+header .logomatch {
+  color: #e6cf78;
+  font-weight: bold;
+  font-family: poppins;
+  /* margin-left: 5px; */
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+div #branding {
+  animation: bounceInLeft 1s;
+}
+
+header #branding h1 {
+  margin: 0;
+  display: inline;
+}
+
+header nav {
+  float: right;
+  margin-top: 20px;
+  margin-right: 117px;
+  animation: bounceInDown 1s;
+}
+
+header .highlight,
+header .current a {
+  color: #e6cf78;
+  font-weight: bold;
+}
+header a:hover {
+  color: #e6cf78;
+  font-weight: bold;
+}
+.headerinsets a {
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+/*-------------------ICONS--------------
+--------------------------------------*/
+.icon {
+  width: 2%;
+  margin: 20px;
+  filter: brightness(50%);
+}
+.icon:hover {
+  animation: tada 1s;
+}
+.bottomDesign {
+  margin-top: auto;
+  margin-bottom: 0px;
+}
+.pbicon {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 2rem;
+  color: #c0a062;
+}
+
+/* -------------------------BUTTONS----------
+-------------------------------------------- */
+
+.btnfilled {
+  background: #c0a062;
+  font-weight: 700;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  padding: 20px 40px;
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+#formButton {
+  margin: 2px 0px;
+  font-size: 12px;
+  padding: 12px 20px;
+}
+
+.btnoutline {
+  background-color: #161616;
+  border: 1px solid #3c3c3c;
+  color: #c0a062;
+  padding: 10px 10px;
+}
+
+#btnscroll {
+  position: fixed;
+  z-index: 1000;
+  right: 20px;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #c0a062;
+  line-height: inherit;
+  font-size: 13px;
+  transform: rotate(90deg);
+  transform-origin: top right;
+  font-weight: 700;
+  padding: 2px 10px 2px 10px;
+  display: none;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+
+/*-------------------SHOWCASE---------------
+--------------------------------------------*/
+
+#showcase {
+  padding-left: 100px;
+  background-color: #161616;
+  text-align: center;
+  color: #fff;
+}
+
+strong {
+  color: #ffffff;
+  opacity: 1;
+}
+
+#showcase h1 {
+  animation: bounceInUp 2s;
+
+  margin-top: 130px;
+  text-shadow: -16px -2px 20px #000;
+
+  font-size: 150px;
+  letter-spacing: -5px;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: left;
+  font-weight: bolder;
+  font-family: droid;
+}
+
+#showcase p {
+  animation: bounceInUp 2s;
+  text-align: left;
+  font-size: 24px;
+  word-spacing: 5px;
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  margin-left: 300px;
+  opacity: 1;
+  color: rgb(231, 218, 218);
+  font-family: poppins;
+}
+
+/*------------------ BOTTOMBLOCK ----------------*/
+
+#bottomblock {
+  margin-top: 250px;
+}
+
+.btncenterdiv {
+  text-align: center;
+  margin-top: 40px;
+}
+.btncenterdiv a {
+  text-decoration: none;
+  color: white;
+}
+/*--------------------------PROJECTBLOCKS----------------
+---------------------------------------------------------- */
+
+#apps {
+  /* margin-bottom: 200px; */
+  padding-top: 40vh;
+}
+
+.heading {
+  text-align: start;
+  color: white;
+  font-size: 80px;
+  line-height: 1;
+  font-family: droid;
+  padding-left: 100px;
+}
+
+.projectsgrid {
+  padding: 80px;
+}
+
+.projectblock {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pblink {
+  text-decoration: none;
+  color: #999;
+}
+
+.pbtitle {
+  color: #fff;
+  margin: 40px 0px;
+  font-size: 36px;
+  font-family: droid;
+}
+
+.pbdescription {
+  color: #333333;
+  height: 40%;
+  font-size: 13x;
+}
+
+/* --------------------------------------------- */
+
+/* -----------------------------WORKBLOCK-----------------------------------
+----------------------------------------------------------------------------
+---------------------------------------------------------------------------- */
+
+#workhead {
+  padding-bottom: 200px;
+}
+
+.workblock {
+  display: flex;
+  margin: 50px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #161616;
+}
+.workdetails {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color: #161616;
+  color: white;
+  padding: 80px;
+  font-family: droid;
+  position: relative;
+  flex: 50%;
+}
+.workimage {
+  background-color: #1e1e1e;
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 80px 0px; */
+  text-align: center;
+}
+#game {
+  padding: 0px 80px;
+}
+#game hr {
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+/* .carousel-inner > .carousel-item > img {
+  width: 640px;
+  height: 360px;
+} */
+.projectImage {
+  width: 400px;
+  height: 800px;
+}
+.projectImageLs {
+  width: 100%;
+}
+#wgameimg {
+  width: 100%;
+}
+#wtitle {
+  display: block;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+#wdescription {
+  font-size: 18px;
+  font-family: droid;
+  color: #808080;
+  padding-right: 180px;
+}
+#used {
+  color: #808080;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  margin: 0px;
+  width: 40%;
+  background-color: #c0a062;
+  height: 2px;
+  margin-bottom: 10%;
+  margin-top: 20%;
+}
+
+#wstackused {
+  font-family: droid;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #808080;
+}
+#wicons {
+  font-size: 40px;
+  color: #c0a062;
+  display: inline-block;
+}
+/* #wicons i {
+  margin-right: 32px;
+} */
+
+#wicons i:hover {
+  animation: tada 1s;
+}
+#wicons a {
+  color: #c0a062;
+  text-decoration: none;
+}
+.actionIcon {
+  margin-right: 24px;
+}
+.actionIcon img {
+  width: 8%;
+}
+
+.actionIcon img:hover {
+  animation: tada 1s;
+}
+/* --------------------------------------------------------------- */
+
+/*-------------------------------ABOUT ME------------------
+-----------------------------------------------------------*/
+#aboutme {
+  padding-top: 30vh;
+}
+#aboutheading {
+  animation: fadeIn 3s;
+  margin-left: 200px;
+  font-size: 78px;
+  font-family: droid;
+  color: white;
+}
+.about {
+  display: flex;
+}
+.aboutleft {
+  flex: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutright {
+  position: relative;
+  flex: 60%;
+  text-align: start;
+}
+
+.abouttitle {
+  font-size: 48px;
+  color: #fff;
+  font-family: droidr;
+}
+.contactLeft {
+  flex: 60%;
+  margin: 80px;
+}
+.contactRight {
+  flex: 40%;
+  margin: 80px;
+}
+#contactDesc {
+  margin-left: 20px;
+  /* text-align: center; */
+}
+#ideaForm {
+  width: 90%;
+}
+
+.about img {
+  width: 70%;
+}
+.about p {
+  font-family: droidr;
+  font-size: 20px;
+  color: #999;
+  font-weight: 400;
+  margin: 80px;
+  line-height: 1.8;
+}
+
+.aboutgrid {
+  padding: 20px 200px;
+}
+
+.vertical {
+  position: absolute;
+  left: -140px;
+  top: 20%;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  letter-spacing: 2px;
+  transform-origin: right bottom;
+  transform: rotate(-90deg);
+  line-height: 1;
+}
+.customLink {
+  text-decoration: none;
+  color: #c0a062;
+}
+
+/* SkillIcons */
+.skillicons {
+  margin-top: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.iconholder {
+  display: grid;
+  width: 80%;
+  row-gap: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  justify-content: center;
+  justify-items: center;
+}
+.skillicons img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  transition: 0.2s ease-in;
+}
+
+.skillicons img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #0b0b0b;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-family: poppins;
+  font-size: 18px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  top: 105%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* Idea Form */
+.formField {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: #999;
+  display: inline-block;
+  background-color: #1e1e1e;
+  border: none;
+  box-sizing: border-box;
+}
+.formField:focus {
+  outline: none;
+  background-color: #1e1e1e;
+}
+.formField:-webkit-autofill,
+.formField:-webkit-autofill:hover,
+.formField:-webkit-autofill:focus,
+.formField:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px #1e1e1e inset !important;
+  -webkit-box-shadow: 0 0 0 30px #1e1e1e inset !important;
+  -webkit-text-fill-color: #999 !important;
+}
+textarea {
+  resize: none;
+}
+/* ------------------- */
+
+/* ------------------------- */
+
+footer {
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+  color: #fff;
+  background-color: #161616;
+  /* height: 100px; */
+  position: relative;
+}
+
+.footercontent {
+  text-align: center;
+  margin-top: 30px;
+}
+/*--------------------------------------------MEDIAQUERIES--------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .icon {
+    width: 5%;
+    margin: 20px;
+  }
+
+  div #branding {
+    margin-top: 0px;
+    animation: bounceInDown 1s;
+  }
+
+  .heading {
+    font-size: 30px;
+    padding-left: 0px;
+  }
+
+  /* ------------------MQGLOBAL--------------- 
+----------------------------------------------*/
+
+  .teabr {
+    display: block;
+  }
+  .emoji {
+    display: none;
+  }
+  .squig {
+    font-size: 50px;
+  }
+  footer {
+    height: 150px;
+  }
+
+  /*---------------------MQBOTTOMBLOCK-----
+  -------------------------------------- */
+
+  #bottomblock {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .projectsgrid {
+    padding: 0px;
+  }
+  .projectblock {
+    margin: 10px;
+  }
+
+  .pbicon {
+    font-size: 1.5rem;
+    color: #c0a062;
+  }
+
+  /* ------------------------------ */
+
+  /* -----------------MQWORKBLOCK---------------
+  ----------------------------------------------- */
+
+  #apps {
+    padding: 0px;
+  }
+  #workhead {
+    padding: 20px 0px 0px 0px;
+  }
+  .workblock {
+    flex-direction: column-reverse;
+    margin: 40px 20px 20px 20px;
+  }
+  .workdetails {
+    padding: 20px 20px;
+  }
+  .workimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  #game {
+    padding: 20px 20px;
+  }
+  #wtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #wdescription {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+  hr {
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+  #wgameimg {
+    width: 100%;
+  }
+  #wicons {
+    font-size: 28px;
+  }
+
+  #wicons i {
+    margin-right: 10px;
+  }
+  /* .actionIcon {
+    margin: 0px 10px;
+  } */
+
+  #wstackused {
+    font-size: 16px;
+  }
+
+  /* --------------------------------------------------------------- */
+
+  /* -------------------MQABOUT --------------------------*/
+
+  #aboutme {
+    padding: 0px;
+  }
+  #aboutheading {
+    margin-left: 20px;
+    font-size: 32px;
+    font-family: droid;
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .about p {
+    font-size: 18px;
+    margin: 10px 40px;
+  }
+  .contactLeft,
+  .contactRight {
+    margin: 20px;
+  }
+
+  /* --------------------MQTECH------------------------ */
+  .tech {
+    width: 100%;
+    flex-direction: column;
+  }
+  .tech div {
+    margin-bottom: 40px;
+  }
+
+  #ideaForm {
+    width: 100%;
+  }
+
+  .vertical {
+    left: -155px;
+  }
+  .gridview {
+    grid-gap: 20px;
+  }
+  .aboutgrid {
+    padding: 10px 40px;
+  }
+  .abouttitle {
+    font-size: 32px;
+  }
+  /* -------------------------------------- */
+
+  header nav li {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  .headerinsets {
+    margin-right: 20px;
+  }
+  header a {
+    font-size: 14px;
+  }
+  header nav {
+    float: none;
+    display: inline;
+    animation: fadeIn 2s;
+  }
+  header img {
+    margin: auto;
+    width: 65%;
+    display: block;
+  }
+  header #branding {
+    padding-left: 20px;
+    margin-left: 0px;
+    font-size: 12px;
+  }
+  header #branding h1 {
+    font-size: 16px;
+  }
+
+  #showcase h1 {
+    font-size: 60px;
+    margin-top: 0px;
+  }
+
+  #showcase p {
+    width: 80%;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  header {
+    padding-bottom: 20px;
+    min-height: 0px;
+  }
+  ul {
+    float: none;
+    text-align: right;
+    width: 100%;
+    animation: bounceInDown 2s;
+    margin: auto;
+  }
+
+  #showcase {
+    padding: 0px;
+    background-position: bottom;
+    animation: fadeIn 2s;
+    background-size: contain;
+  }
+
+  #mydetail {
+    padding: 10px 20px;
+  }
+  #mydetail p {
+    float: none;
+
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 18px;
+    color: #999999;
+  }
+}
+/*----------------------------------------------ANIMATIONS---------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+
+/*Bounce in Left*/
+@-webkit-keyframes bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+/*Bounce in Up*/
+@-webkit-keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+/*fade in*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/*tada*/
+@-webkit-keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: center;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* ---------------------------------LOADER-------------------------------------------------- */
+.spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: auto auto;
+}
+
+.overlay {
+  height: 100vh;
+  padding-top: auto;
+}
+.double-bounce1,
+.double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #c0a062;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+/* -----------------------------LOADER--------------------------------- */
